@@ -1,0 +1,314 @@
+{
+  "python": "3.11.18",
+  "platform": "macOS-26.7.1-arm64-arm-64bit",
+  "versions": {
+    "arch": "8.0.0",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "statsmodels": "0.14.4"
+  },
+  "absolute_tolerance": 1e-08,
+  "comparisons": 1944,
+  "expected_equality_checks": 1800,
+  "expected_equality_failures": 0,
+  "fresh_ARCH_model_pairs": 192,
+  "saved_ARCH_model_pairs": 72,
+  "saved_urca_model_pairs": 48,
+  "saved_Statsmodels_model_pairs": 24,
+  "fixture_sha256": {
+    "comparisons.csv": "d9bde3200b76128670d860fe926505f33cd6893c3e3c5748376881e7fa36cb14",
+    "manifest.json": "f036f8c35e309ab9a8750e487b0ec94d5b3b7733311d08a1e2028bd1a9449cb9",
+    "mic_candidates.csv": "b50fe30d96de6c3b5688a8347ceb9bf9de872a6d47163736575c214081bbd1e7",
+    "python_development.csv": "a27bfeb78838f6c1c42c7577046f971eaffae884a72a59f412c9b5d93c4f6046",
+    "python_development.csv.metadata.json": "e58161e9b7242c6627b44a2cda233c0612e42bf713d113e23ee87cebfea86edb",
+    "python_release.csv": "1f45049ad4f41d601c9f4147ca13d4205d9cd63e08b35fcdde41cede59dc9568",
+    "python_release.csv.metadata.json": "e6df6d26ade800c442eefe093aebb56e4ddee94884b7ec4b73d9b17d7bbd6bd2",
+    "r_metadata.json": "6d1a1146d9239de7188e5d712b4a92481427d35444143c37ca8e358f6f98cbab",
+    "r_results.csv": "011b9b2cc52d562f43572d0e05960aa1cda377ea7c419f8bd5d0a03fc56eecd9",
+    "series.csv": "3e1859fe7f1005f95e625d0df3eb77dd8fbea6c26162c07d5781408d058cc088",
+    "summary.json": "b76d674d7d02854b9e6874e710faff70dc9bcba71c178dd62f09664438abd2e8"
+  },
+  "groups": {
+    "fresh_ARCH:PP_tau:statistic": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_tau:pvalue": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_tau:nobs": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_tau:bandwidth": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_tau:cv1": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_tau:cv5": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_tau:cv10": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_rho:statistic": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_rho:pvalue": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_rho:nobs": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_rho:bandwidth": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_rho:cv1": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_rho:cv5": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:PP_rho:cv10": {
+      "comparisons": 72,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:PP_tau:statistic": {
+      "comparisons": 24,
+      "max_absolute_difference": 1.63202784619898e-13,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:PP_tau:pvalue": {
+      "comparisons": 24,
+      "max_absolute_difference": 7.926992395823618e-14,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:PP_tau:nobs": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:PP_tau:cv1": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:PP_tau:cv5": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:PP_tau:cv10": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_urca:PP_tau:statistic": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.03151899870945485,
+      "expected_equal": false,
+      "outside_tolerance": 24
+    },
+    "saved_ARCH:PP_rho:statistic": {
+      "comparisons": 24,
+      "max_absolute_difference": 7.958078640513122e-12,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:PP_rho:pvalue": {
+      "comparisons": 24,
+      "max_absolute_difference": 4.929390229335695e-14,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:PP_rho:nobs": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:PP_rho:cv1": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:PP_rho:cv5": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:PP_rho:cv10": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_urca:PP_rho:statistic": {
+      "comparisons": 24,
+      "max_absolute_difference": 1.29716119317618,
+      "expected_equal": false,
+      "outside_tolerance": 24
+    },
+    "fresh_ARCH:KPSS:statistic": {
+      "comparisons": 48,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:KPSS:pvalue": {
+      "comparisons": 48,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:KPSS:nobs": {
+      "comparisons": 48,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:KPSS:bandwidth": {
+      "comparisons": 48,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:KPSS:cv1": {
+      "comparisons": 48,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:KPSS:cv5": {
+      "comparisons": 48,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "fresh_ARCH:KPSS:cv10": {
+      "comparisons": 48,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:KPSS:statistic": {
+      "comparisons": 24,
+      "max_absolute_difference": 1.865174681370263e-14,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:KPSS:pvalue": {
+      "comparisons": 24,
+      "max_absolute_difference": 1.4155343563970746e-15,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:KPSS:nobs": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:KPSS:cv1": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:KPSS:cv5": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_ARCH:KPSS:cv10": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_Statsmodels:KPSS:statistic": {
+      "comparisons": 24,
+      "max_absolute_difference": 1.865174681370263e-14,
+      "expected_equal": true,
+      "outside_tolerance": 0
+    },
+    "saved_Statsmodels:KPSS:pvalue": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.030935070749189525,
+      "expected_equal": false,
+      "outside_tolerance": 24
+    },
+    "saved_Statsmodels:KPSS:cv1": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0038000000000000256,
+      "expected_equal": false,
+      "outside_tolerance": 24
+    },
+    "saved_Statsmodels:KPSS:cv5": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0019000000000000128,
+      "expected_equal": false,
+      "outside_tolerance": 24
+    },
+    "saved_Statsmodels:KPSS:cv10": {
+      "comparisons": 24,
+      "max_absolute_difference": 0.0005000000000000004,
+      "expected_equal": false,
+      "outside_tolerance": 24
+    }
+  },
+  "limitations": [
+    "Saved R references only; no live R regeneration.",
+    "Six reviewed series are regression evidence, not a size/power study.",
+    "Python 3.11, lower dependency bounds and other platforms untested."
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "expected_version": "0.1.0rc1",
+  "python": "3.14.10",
+  "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+  "commands": {
+    "installed-smoke": {
+      "returncode": 0,
+      "command": [
+        "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/bin/python",
+        "-c",
+        "import importlib.metadata as m,json,pathlib,platform,sys,numpy as np,unitroot_tools as u\nexpected=sys.argv[1]\nassert u.__version__==m.version('unitroot-tools')==expected\nassert m.version('arch')=='8.0.0'\nassert 'site-packages' in u.__file__,u.__file__\ny=np.random.default_rng(20261027).normal(size=240).cumsum()\nfor f in (u.adf,u.dfgls,u.pp,u.kpss):\n r=f(y);assert r.versions['arch']=='8.0.0';assert np.isfinite(r.statistic)\nassert u.select_lags(y,max_lags=12).method=='maic'\nprint(json.dumps(dict(python=sys.version,platform=platform.platform(),module=u.__file__,versions={x:m.version(x) for x in ('unitroot-tools','arch','numpy','scipy','statsmodels','pandas','pytest','pytest-cov')},venv_config=pathlib.Path(sys.prefix,'pyvenv.cfg').read_text() if pathlib.Path(sys.prefix,'pyvenv.cfg').exists() else None),indent=2))\n",
+        "0.1.0rc1"
+      ]
+    },
+    "freeze": {
+      "returncode": 0,
+      "command": [
+        "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/bin/python",
+        "-m",
+        "pip",
+        "freeze"
+      ]
+    },
+    "pip-check": {
+      "returncode": 0,
+      "command": [
+        "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/bin/python",
+        "-m",
+        "pip",
+        "check"
+      ]
+    },
+    "pytest": {
+      "returncode": 0,
+      "command": [
+        "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/bin/python",
+        "-m",
+        "pytest",
+        "-c",
+        "/Users/maarranz/GitHub/UnitRoot-Tools/validation/stage4b/314-current/suite/pytest.ini",
+        "--junitxml=/Users/maarranz/GitHub/UnitRoot-Tools/validation/stage4b/314-current/pytest.xml",
+        "--cov=unitroot_tools",
+        "--cov-branch",
+        "--cov-report=json:/Users/maarranz/GitHub/UnitRoot-Tools/validation/stage4b/314-current/coverage.json"
+      ]
+    },
+    "stage2-audit": {
+      "returncode": 0,
+      "command": [
+        "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/bin/python",
+        "/Users/maarranz/GitHub/UnitRoot-Tools/validation/stage4b/314-current/suite/validation/audit_saved_results.py",
+        "--report",
+        "/Users/maarranz/GitHub/UnitRoot-Tools/validation/stage4b/314-current/stage2_audit.json"
+      ]
+    },
+    "stage3b-replay": {
+      "returncode": 0,
+      "command": [
+        "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/bin/python",
+        "/Users/maarranz/GitHub/UnitRoot-Tools/validation/stage4b/314-current/suite/validation/validate_stage4.py",
+        "--report",
+        "/Users/maarranz/GitHub/UnitRoot-Tools/validation/stage4b/314-current/stage3b_replay.json"
+      ]
+    },
+    "stage3c-replay": {
+      "returncode": 0,
+      "command": [
+        "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/bin/python",
+        "/Users/maarranz/GitHub/UnitRoot-Tools/validation/stage4b/314-current/suite/validation/validate_stage3c.py"
+      ]
+    },
+    "adf_dfgls.py": {
+      "returncode": 0,
+      "command": [
+        "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/bin/python",
+        "/Users/maarranz/GitHub/UnitRoot-Tools/validation/stage4b/314-current/suite/examples/adf_dfgls.py"
+      ]
+    },
+    "pp_kpss.py": {
+      "returncode": 0,
+      "command": [
+        "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/bin/python",
+        "/Users/maarranz/GitHub/UnitRoot-Tools/validation/stage4b/314-current/suite/examples/pp_kpss.py"
+      ]
+    },
+    "teaching_walkthrough.py": {
+      "returncode": 0,
+      "command": [
+        "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/bin/python",
+        "/Users/maarranz/GitHub/UnitRoot-Tools/validation/stage4b/314-current/suite/examples/teaching_walkthrough.py"
+      ]
+    },
+    "numpy-config": {
+      "returncode": 0,
+      "command": [
+        "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/bin/python",
+        "-c",
+        "import numpy; numpy.show_config()"
+      ]
+    }
+  },
+  "original_fixtures_unchanged": true,
+  "fixture_sha256": {
+    "summary.json": "b76d674d7d02854b9e6874e710faff70dc9bcba71c178dd62f09664438abd2e8",
+    "python_development.csv": "a27bfeb78838f6c1c42c7577046f971eaffae884a72a59f412c9b5d93c4f6046",
+    "python_development.csv.metadata.json": "e58161e9b7242c6627b44a2cda233c0612e42bf713d113e23ee87cebfea86edb",
+    "python_release.csv.metadata.json": "e6df6d26ade800c442eefe093aebb56e4ddee94884b7ec4b73d9b17d7bbd6bd2",
+    "r_metadata.json": "6d1a1146d9239de7188e5d712b4a92481427d35444143c37ca8e358f6f98cbab",
+    "comparisons.csv": "d9bde3200b76128670d860fe926505f33cd6893c3e3c5748376881e7fa36cb14",
+    "manifest.json": "f036f8c35e309ab9a8750e487b0ec94d5b3b7733311d08a1e2028bd1a9449cb9",
+    "r_results.csv": "011b9b2cc52d562f43572d0e05960aa1cda377ea7c419f8bd5d0a03fc56eecd9",
+    "series.csv": "3e1859fe7f1005f95e625d0df3eb77dd8fbea6c26162c07d5781408d058cc088",
+    "python_release.csv": "1f45049ad4f41d601c9f4147ca13d4205d9cd63e08b35fcdde41cede59dc9568",
+    "mic_candidates.csv": "b50fe30d96de6c3b5688a8347ceb9bf9de872a6d47163736575c214081bbd1e7"
+  },
+  "all_passed": true
+}

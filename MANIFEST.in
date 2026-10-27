@@ -1,0 +1,8 @@
+include LICENSE README.md pyproject.toml
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include validation *.py *.R *.csv *.json *.xml *.ipynb
+prune validation/stage4
+include .github/workflows/platform-validation.yml
+prune validation/stage4b

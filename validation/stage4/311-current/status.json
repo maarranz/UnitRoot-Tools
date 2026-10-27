@@ -1,0 +1,18 @@
+{
+  "label": "311-current",
+  "installation_mode": "repository",
+  "commands": {
+    "package-install": 0,
+    "metadata": 0,
+    "pip-check": 0,
+    "freeze": 0,
+    "pytest": 0,
+    "stage2-audit": 0,
+    "stage3b-replay": 0,
+    "stage3c-replay": 0,
+    "adf_dfgls.py": 0,
+    "pp_kpss.py": 0,
+    "teaching_walkthrough.py": 0
+  },
+  "all_passed": true
+}

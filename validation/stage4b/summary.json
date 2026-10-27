@@ -1,0 +1,340 @@
+{
+  "candidate": "0.1.0rc1",
+  "platform": "macOS 26.7.1 arm64",
+  "environments": 7,
+  "total_passing_test_executions": 8148,
+  "unique_test_cases": 1164,
+  "linux_verified": false,
+  "colab_verified": false,
+  "rows": [
+    {
+      "label": "311-current",
+      "metadata": {
+        "python": "3.11.18 (main, Oct 26 2026, 13:58:42) [Clang 23.1.3 ]",
+        "platform": "macOS-26.7.1-arm64-arm-64bit",
+        "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env311-current/lib/python3.11/site-packages/unitroot_tools/__init__.py",
+        "versions": {
+          "unitroot-tools": "0.1.0rc1",
+          "arch": "8.0.0",
+          "numpy": "2.4.4",
+          "scipy": "1.17.1",
+          "statsmodels": "0.15.0",
+          "pandas": "3.1.0",
+          "pytest": "9.1.1",
+          "pytest-cov": "7.1.0"
+        },
+        "venv_config": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.11-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.11.18\ninclude-system-site-packages = false\n"
+      },
+      "tests": 1164,
+      "failures": 0,
+      "stage2_expected_equalities": 840,
+      "stage3b_max_absolute_differences": {
+        "saved_statistic": 0.0,
+        "saved_pvalue": 0.0,
+        "saved_critical_value": 0.0,
+        "public_statistic": 0.0,
+        "public_pvalue": 0.0,
+        "public_critical_value": 0.0
+      },
+      "stage3c_saved_ARCH_max_difference": 0.0,
+      "coverage": {
+        "covered_lines": 505,
+        "num_statements": 507,
+        "percent_covered": 99.5405819295559,
+        "percent_covered_display": "99",
+        "missing_lines": 2,
+        "excluded_lines": 0,
+        "percent_statements_covered": 99.60552268244577,
+        "percent_statements_covered_display": "99",
+        "num_branches": 146,
+        "num_partial_branches": 1,
+        "covered_branches": 145,
+        "missing_branches": 1,
+        "percent_branches_covered": 99.31506849315069,
+        "percent_branches_covered_display": "99"
+      }
+    },
+    {
+      "label": "312-current",
+      "metadata": {
+        "python": "3.12.16 (main, Oct 26 2026, 13:59:40) [Clang 23.1.3 ]",
+        "platform": "macOS-26.7.1-arm64-arm-64bit",
+        "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env312-current/lib/python3.12/site-packages/unitroot_tools/__init__.py",
+        "versions": {
+          "unitroot-tools": "0.1.0rc1",
+          "arch": "8.0.0",
+          "numpy": "2.4.4",
+          "scipy": "1.17.1",
+          "statsmodels": "0.15.0",
+          "pandas": "3.1.0",
+          "pytest": "9.1.1",
+          "pytest-cov": "7.1.0"
+        },
+        "venv_config": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.12-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.12.16\ninclude-system-site-packages = false\n"
+      },
+      "tests": 1164,
+      "failures": 0,
+      "stage2_expected_equalities": 840,
+      "stage3b_max_absolute_differences": {
+        "saved_statistic": 0.0,
+        "saved_pvalue": 0.0,
+        "saved_critical_value": 0.0,
+        "public_statistic": 0.0,
+        "public_pvalue": 0.0,
+        "public_critical_value": 0.0
+      },
+      "stage3c_saved_ARCH_max_difference": 0.0,
+      "coverage": {
+        "covered_lines": 505,
+        "num_statements": 507,
+        "percent_covered": 99.5405819295559,
+        "percent_covered_display": "99",
+        "missing_lines": 2,
+        "excluded_lines": 0,
+        "percent_statements_covered": 99.60552268244577,
+        "percent_statements_covered_display": "99",
+        "num_branches": 146,
+        "num_partial_branches": 1,
+        "covered_branches": 145,
+        "missing_branches": 1,
+        "percent_branches_covered": 99.31506849315069,
+        "percent_branches_covered_display": "99"
+      }
+    },
+    {
+      "label": "313-current",
+      "metadata": {
+        "python": "3.13.18 (main, Oct 26 2026, 13:59:02) [Clang 23.1.3 ]",
+        "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+        "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env313-current/lib/python3.13/site-packages/unitroot_tools/__init__.py",
+        "versions": {
+          "unitroot-tools": "0.1.0rc1",
+          "arch": "8.0.0",
+          "numpy": "2.4.4",
+          "scipy": "1.17.1",
+          "statsmodels": "0.15.0",
+          "pandas": "3.1.0",
+          "pytest": "9.1.1",
+          "pytest-cov": "7.1.0"
+        },
+        "venv_config": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.13-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.13.18\ninclude-system-site-packages = false\n"
+      },
+      "tests": 1164,
+      "failures": 0,
+      "stage2_expected_equalities": 840,
+      "stage3b_max_absolute_differences": {
+        "saved_statistic": 0.0,
+        "saved_pvalue": 0.0,
+        "saved_critical_value": 0.0,
+        "public_statistic": 0.0,
+        "public_pvalue": 0.0,
+        "public_critical_value": 0.0
+      },
+      "stage3c_saved_ARCH_max_difference": 0.0,
+      "coverage": {
+        "covered_lines": 505,
+        "num_statements": 507,
+        "percent_covered": 99.5405819295559,
+        "percent_covered_display": "99",
+        "missing_lines": 2,
+        "excluded_lines": 0,
+        "percent_statements_covered": 99.60552268244577,
+        "percent_statements_covered_display": "99",
+        "num_branches": 146,
+        "num_partial_branches": 1,
+        "covered_branches": 145,
+        "missing_branches": 1,
+        "percent_branches_covered": 99.31506849315069,
+        "percent_branches_covered_display": "99"
+      }
+    },
+    {
+      "label": "314-current",
+      "metadata": {
+        "python": "3.14.10 (main, Oct 26 2026, 13:59:48) [Clang 23.1.3 ]",
+        "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+        "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env314-current/lib/python3.14/site-packages/unitroot_tools/__init__.py",
+        "versions": {
+          "unitroot-tools": "0.1.0rc1",
+          "arch": "8.0.0",
+          "numpy": "2.4.4",
+          "scipy": "1.17.1",
+          "statsmodels": "0.15.0",
+          "pandas": "3.1.0",
+          "pytest": "9.1.1",
+          "pytest-cov": "7.1.0"
+        },
+        "venv_config": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.14-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.14.10\ninclude-system-site-packages = false\n"
+      },
+      "tests": 1164,
+      "failures": 0,
+      "stage2_expected_equalities": 840,
+      "stage3b_max_absolute_differences": {
+        "saved_statistic": 0.0,
+        "saved_pvalue": 0.0,
+        "saved_critical_value": 0.0,
+        "public_statistic": 0.0,
+        "public_pvalue": 0.0,
+        "public_critical_value": 0.0
+      },
+      "stage3c_saved_ARCH_max_difference": 0.0,
+      "coverage": {
+        "covered_lines": 458,
+        "num_statements": 460,
+        "percent_covered": 99.5049504950495,
+        "percent_covered_display": "99",
+        "missing_lines": 2,
+        "excluded_lines": 0,
+        "percent_statements_covered": 99.56521739130434,
+        "percent_statements_covered_display": "99",
+        "num_branches": 146,
+        "num_partial_branches": 1,
+        "covered_branches": 145,
+        "missing_branches": 1,
+        "percent_branches_covered": 99.31506849315069,
+        "percent_branches_covered_display": "99"
+      }
+    },
+    {
+      "label": "311-lower",
+      "metadata": {
+        "python": "3.11.18 (main, Oct 26 2026, 13:58:42) [Clang 23.1.3 ]",
+        "platform": "macOS-26.7.1-arm64-arm-64bit",
+        "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env311-lower/lib/python3.11/site-packages/unitroot_tools/__init__.py",
+        "versions": {
+          "unitroot-tools": "0.1.0rc1",
+          "arch": "8.0.0",
+          "numpy": "1.26.4",
+          "scipy": "1.11.4",
+          "statsmodels": "0.14.4",
+          "pandas": "2.2.3",
+          "pytest": "9.1.1",
+          "pytest-cov": "7.1.0"
+        },
+        "venv_config": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.11-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.11.18\ninclude-system-site-packages = false\n"
+      },
+      "tests": 1164,
+      "failures": 0,
+      "stage2_expected_equalities": 840,
+      "stage3b_max_absolute_differences": {
+        "saved_statistic": 2.7924329515371937e-12,
+        "saved_pvalue": 1.5816514764566136e-13,
+        "saved_critical_value": 0.0,
+        "public_statistic": 0.0,
+        "public_pvalue": 0.0,
+        "public_critical_value": 0.0
+      },
+      "stage3c_saved_ARCH_max_difference": 7.958078640513122e-12,
+      "coverage": {
+        "covered_lines": 505,
+        "num_statements": 507,
+        "percent_covered": 99.5405819295559,
+        "percent_covered_display": "99",
+        "missing_lines": 2,
+        "excluded_lines": 0,
+        "percent_statements_covered": 99.60552268244577,
+        "percent_statements_covered_display": "99",
+        "num_branches": 146,
+        "num_partial_branches": 1,
+        "covered_branches": 145,
+        "missing_branches": 1,
+        "percent_branches_covered": 99.31506849315069,
+        "percent_branches_covered_display": "99"
+      }
+    },
+    {
+      "label": "312-lower",
+      "metadata": {
+        "python": "3.12.16 (main, Oct 26 2026, 13:59:40) [Clang 23.1.3 ]",
+        "platform": "macOS-26.7.1-arm64-arm-64bit",
+        "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env312-lower/lib/python3.12/site-packages/unitroot_tools/__init__.py",
+        "versions": {
+          "unitroot-tools": "0.1.0rc1",
+          "arch": "8.0.0",
+          "numpy": "1.26.4",
+          "scipy": "1.11.4",
+          "statsmodels": "0.14.4",
+          "pandas": "2.2.3",
+          "pytest": "9.1.1",
+          "pytest-cov": "7.1.0"
+        },
+        "venv_config": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.12-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.12.16\ninclude-system-site-packages = false\n"
+      },
+      "tests": 1164,
+      "failures": 0,
+      "stage2_expected_equalities": 840,
+      "stage3b_max_absolute_differences": {
+        "saved_statistic": 2.7924329515371937e-12,
+        "saved_pvalue": 1.5816514764566136e-13,
+        "saved_critical_value": 0.0,
+        "public_statistic": 0.0,
+        "public_pvalue": 0.0,
+        "public_critical_value": 0.0
+      },
+      "stage3c_saved_ARCH_max_difference": 7.958078640513122e-12,
+      "coverage": {
+        "covered_lines": 505,
+        "num_statements": 507,
+        "percent_covered": 99.5405819295559,
+        "percent_covered_display": "99",
+        "missing_lines": 2,
+        "excluded_lines": 0,
+        "percent_statements_covered": 99.60552268244577,
+        "percent_statements_covered_display": "99",
+        "num_branches": 146,
+        "num_partial_branches": 1,
+        "covered_branches": 145,
+        "missing_branches": 1,
+        "percent_branches_covered": 99.31506849315069,
+        "percent_branches_covered_display": "99"
+      }
+    },
+    {
+      "label": "312-sdist",
+      "metadata": {
+        "python": "3.12.16 (main, Oct 26 2026, 13:59:40) [Clang 23.1.3 ]",
+        "platform": "macOS-26.7.1-arm64-arm-64bit",
+        "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4b/env312-sdist/lib/python3.12/site-packages/unitroot_tools/__init__.py",
+        "versions": {
+          "unitroot-tools": "0.1.0rc1",
+          "arch": "8.0.0",
+          "numpy": "2.4.4",
+          "scipy": "1.17.1",
+          "statsmodels": "0.15.0",
+          "pandas": "3.1.0",
+          "pytest": "9.1.1",
+          "pytest-cov": "7.1.0"
+        },
+        "venv_config": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.12-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.12.16\ninclude-system-site-packages = false\n"
+      },
+      "tests": 1164,
+      "failures": 0,
+      "stage2_expected_equalities": 840,
+      "stage3b_max_absolute_differences": {
+        "saved_statistic": 0.0,
+        "saved_pvalue": 0.0,
+        "saved_critical_value": 0.0,
+        "public_statistic": 0.0,
+        "public_pvalue": 0.0,
+        "public_critical_value": 0.0
+      },
+      "stage3c_saved_ARCH_max_difference": 0.0,
+      "coverage": {
+        "covered_lines": 505,
+        "num_statements": 507,
+        "percent_covered": 99.5405819295559,
+        "percent_covered_display": "99",
+        "missing_lines": 2,
+        "excluded_lines": 0,
+        "percent_statements_covered": 99.60552268244577,
+        "percent_statements_covered_display": "99",
+        "num_branches": 146,
+        "num_partial_branches": 1,
+        "covered_branches": 145,
+        "missing_branches": 1,
+        "percent_branches_covered": 99.31506849315069,
+        "percent_branches_covered_display": "99"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local environments and desktop/build artifacts
+.venv/
+.venv*/
+venv/
+env/
+.DS_Store
+*.whl
+*.tar.gz
+
+# Original fixtures remain canonical; this ZIP duplicates them.
+/validation/results.zip
+# Local copied test sandboxes and verbose generated run artifacts.
+/validation/stage4*/**/suite/
+/validation/**/*.log
+/validation/**/*.xml
+/validation/**/coverage.json
+/validation/*_coverage.json
+# Per-environment copies duplicate the canonical Stage 3 comparison ledger.
+/validation/stage4*/*/stage3c_comparisons.csv

@@ -1,0 +1,88 @@
+{
+  "audit_script_sha256": "17cb55fadc8290efe83f3d9a36d02a4a05c478ff8450cb4b13cb1def3f7a43c6",
+  "released_arch_public_composition_checks": 120,
+  "released_arch_composition_max_error": 1.0946799022804043e-13,
+  "files_read_sha256": {
+    "comparisons.csv": "d9bde3200b76128670d860fe926505f33cd6893c3e3c5748376881e7fa36cb14",
+    "manifest.json": "f036f8c35e309ab9a8750e487b0ec94d5b3b7733311d08a1e2028bd1a9449cb9",
+    "mic_candidates.csv": "b50fe30d96de6c3b5688a8347ceb9bf9de872a6d47163736575c214081bbd1e7",
+    "python_development.csv": "a27bfeb78838f6c1c42c7577046f971eaffae884a72a59f412c9b5d93c4f6046",
+    "python_development.csv.metadata.json": "e58161e9b7242c6627b44a2cda233c0612e42bf713d113e23ee87cebfea86edb",
+    "python_release.csv": "1f45049ad4f41d601c9f4147ca13d4205d9cd63e08b35fcdde41cede59dc9568",
+    "python_release.csv.metadata.json": "e6df6d26ade800c442eefe093aebb56e4ddee94884b7ec4b73d9b17d7bbd6bd2",
+    "r_metadata.json": "6d1a1146d9239de7188e5d712b4a92481427d35444143c37ca8e358f6f98cbab",
+    "r_results.csv": "011b9b2cc52d562f43572d0e05960aa1cda377ea7c419f8bd5d0a03fc56eecd9",
+    "series.csv": "3e1859fe7f1005f95e625d0df3eb77dd8fbea6c26162c07d5781408d058cc088",
+    "summary.json": "b76d674d7d02854b9e6874e710faff70dc9bcba71c178dd62f09664438abd2e8"
+  },
+  "total_comparisons": 1188,
+  "expected_equalities": 840,
+  "expected_failures": 0,
+  "raw_rows": {
+    "python_release.csv": 216,
+    "python_development.csv": 120,
+    "r_results.csv": 252
+  },
+  "candidate_rows": 1620,
+  "qr_candidate_max_errors": {
+    "n": 0.0,
+    "beta": 1.8707257964933888e-14,
+    "sigma2": 4.440892098500626e-15,
+    "level_ss": 5.820766091346741e-11,
+    "tau": 8.989786692836788e-11,
+    "MAIC": 9.616751839303106e-13,
+    "MBIC": 2.5144331061710545e-12
+  },
+  "raw_selection_checks": 264,
+  "qr_statistic_max_errors": {
+    "ADF": 3.084643651618535e-12,
+    "KPSS": 1.8984813721090177e-14,
+    "PP_tau": 1.5409895581797173e-13,
+    "PP_rho": 2.106759211528697e-12,
+    "DFGLS": 4.75175454539567e-14
+  },
+  "boundary": [
+    {
+      "p": 0,
+      "MAIC_full": 0.584559278647573,
+      "MAIC_bootUR": 0.5353808353974087,
+      "MBIC_full": 1.6986547705912884,
+      "MBIC_bootUR": 1.5983912986985196
+    },
+    {
+      "p": 1,
+      "MAIC_full": 0.6158924421092853,
+      "MAIC_bootUR": 0.5668315502368635,
+      "MBIC_full": 1.7625374073665998,
+      "MBIC_bootUR": 1.662513595545995
+    },
+    {
+      "p": 2,
+      "MAIC_full": 0.5529050552848642,
+      "MAIC_bootUR": 0.5081451231383285,
+      "MBIC_full": 1.6373279623959824,
+      "MBIC_bootUR": 1.5460728127388927
+    },
+    {
+      "p": 3,
+      "MAIC_full": 0.5525921090482988,
+      "MAIC_bootUR": 0.5093667587988466,
+      "MBIC_full": 1.6374628772785336,
+      "MBIC_bootUR": 1.5493363851944935
+    },
+    {
+      "p": 4,
+      "MAIC_full": 0.8403320339017273,
+      "MAIC_bootUR": 0.7839625025976589,
+      "MBIC_full": 2.2581854600239537,
+      "MBIC_bootUR": 2.1432610227300763
+    }
+  ],
+  "metadata_files": [
+    "summary.json",
+    "python_development.csv.metadata.json",
+    "python_release.csv.metadata.json",
+    "r_metadata.json",
+    "manifest.json"
+  ]
+}

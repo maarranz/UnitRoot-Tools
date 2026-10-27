@@ -1,0 +1,72 @@
+{
+  "python": "3.14.10",
+  "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "statsmodels": "0.15.0",
+    "arch": "8.0.0",
+    "pytest": "9.1.1",
+    "pytest-cov": "7.1.0",
+    "setuptools": "84.2.1"
+  },
+  "pytest": {
+    "passed": 337,
+    "failed": 0,
+    "skipped": 0
+  },
+  "coverage": {
+    "covered_lines": 156,
+    "num_statements": 157,
+    "percent_covered": 99.03381642512078,
+    "percent_covered_display": "99",
+    "missing_lines": 1,
+    "excluded_lines": 0,
+    "percent_statements_covered": 99.36305732484077,
+    "percent_statements_covered_display": "99",
+    "num_branches": 50,
+    "num_partial_branches": 1,
+    "covered_branches": 49,
+    "missing_branches": 1,
+    "percent_branches_covered": 98.0,
+    "percent_branches_covered_display": "98"
+  },
+  "pq_fixture_groups": 36,
+  "pq_candidate_rows": 324,
+  "method_selection_calls": 144,
+  "max_absolute_errors": {
+    "level_coefficient": 3.4416913763379853e-15,
+    "ssr": 1.0231815394945443e-12,
+    "variance": 6.217248937900877e-15,
+    "level_sum_squares": 2.3283064365386963e-10,
+    "tau": 4.831690603168681e-13,
+    "maic": 1.6431300764452317e-14,
+    "mbic": 3.375077994860476e-14,
+    "aic": 1.3322676295501878e-15,
+    "bic": 1.3322676295501878e-15
+  },
+  "boundary": {
+    "maic": 3,
+    "mbic": 2,
+    "aic": 0,
+    "bic": 0
+  },
+  "conventional_modified_different_choices": {
+    "aic_vs_maic": 21,
+    "bic_vs_mbic": 21
+  },
+  "stage2_manifest_unchanged": true,
+  "implementation_and_test_sha256": {
+    "src/unitroot_tools/results.py": "05db471219c0313294e277c30def7656bbd27bac3232e97a0adb4fba9b717964",
+    "src/unitroot_tools/__init__.py": "df6bf550a1f5f3eb582381f739fa96bccafd6392dc710a5e2fa9da97377ed989",
+    "src/unitroot_tools/_validation.py": "c9dc793e744188d768122715069cae248044623e8db1c857accb8ceffb0acaa0",
+    "src/unitroot_tools/errors.py": "7c0725d2ca6ff4b26a73d886f783ac1cbbe65be27b7dfab2ed6b19cafff7bf38",
+    "src/unitroot_tools/selection.py": "87b489617da7a66b672128ec3ce4e7988e59fb3c038bb64d1565f70e2eee02c9",
+    "tests/conftest.py": "9aa8e1551357d6b5597229a73459a44f4aeddcf2eaad91bbc6d7685f73a76431",
+    "tests/test_validation.py": "72db852460677e3310fd0a4ca58180d2682449ddce06731c699db5c56e715713",
+    "tests/test_selection.py": "d9fea0d861835dc0d033e67c7eb96749618a57c5ce8fc5283c7ab993ee45353f",
+    "tests/test_fixtures.py": "4ae86a329df082a898e5569ac573eb117590d9feca30c3cac29b14f82a8dfb8b",
+    "pyproject.toml": "dd32a21835d8bf9ed2cc706ab381835789eb7199c9f5a6f2fb48816c9bebd86b",
+    "docs/Implementation_Specification.md": "f4f96de68a884fbba7d650b4d74f4f15a0f178f05401f6000c0482be2e394e7c"
+  }
+}

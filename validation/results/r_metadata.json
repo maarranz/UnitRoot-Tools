@@ -1,0 +1,35 @@
+{
+  "R": "R version 4.6.1 (2026-06-24)",
+  "platform": "aarch64-apple-darwin23",
+  "packages": [
+    {
+      "name": "urca",
+      "version": "1.3.4"
+    },
+    {
+      "name": "bootUR",
+      "version": "1.0.5"
+    },
+    {
+      "name": "jsonlite",
+      "version": "2.0.0"
+    },
+    {
+      "name": "Rcpp",
+      "version": "1.1.2"
+    },
+    {
+      "name": "RcppArmadillo",
+      "version": "15.6.0.1"
+    },
+    {
+      "name": "RcppParallel",
+      "version": "6.2.1"
+    },
+    {
+      "name": "RcppThread",
+      "version": "2.4.0"
+    }
+  ],
+  "BLAS": "/Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRblas.0.dylib"
+}

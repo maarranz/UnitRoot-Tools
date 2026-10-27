@@ -1,0 +1,12 @@
+{
+  "notebook_schema_valid": true,
+  "notebook_code_cells_compiled": 4,
+  "notebook_code_cells_unexecuted": true,
+  "workflow_yaml_structure_valid": true,
+  "workflow_shell_syntax_valid": true,
+  "workflow_matrix_rows": 6,
+  "workflow_dispatched": false,
+  "linux_pass_claimed": false,
+  "colab_pass_claimed": false,
+  "wheel_notebook_and_runner_bytes_match": true
+}

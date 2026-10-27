@@ -1,0 +1,202 @@
+# UnitRoot-Tools user guide
+
+UnitRoot-Tools provides `adf`, `dfgls`, `pp`, `kpss` and `select_lags` for
+teaching applied time-series econometrics. It uses released **ARCH 8.0.0** for
+final test statistics and inference. It does not automatically choose a model
+or determine whether differencing is appropriate.
+
+## Installation and first run
+
+Python 3.11 or later is required. Consult `Stage4B_Release_Candidate.md` for the
+versions actually tested; a declared dependency range is not a tested matrix.
+From a local checkout:
+
+```sh
+python -m venv .venv
+# macOS/Linux:
+source .venv/bin/activate
+python -m pip install .
+python examples/teaching_walkthrough.py
+```
+
+For development use `python -m pip install -e '.[test]'` and `python -m pytest`.
+For a supplied wheel use `python -m pip install /path/to/unitroot_tools-0.1.0rc1-py3-none-any.whl`.
+Then run `python -m pip check`. The version in that filename is the current
+unpublished release candidate, not a publication announcement.
+
+In Google Colab, upload the supplied wheel to `/content` using the Files pane,
+then run this in a notebook cell:
+
+```python
+%pip install /content/unitroot_tools-0.1.0rc1-py3-none-any.whl
+```
+
+Restart the runtime if replacing already imported numerical dependencies.
+The examples below use ordinary Python and can be pasted into later cells.
+Colab/Linux itself was not available for validation in this stage. No PyPI
+installation or GitHub release is assumed to exist.
+
+## Start with data and a stated question
+
+```python
+import numpy as np
+from unitroot_tools import adf, dfgls, pp, kpss, select_lags
+
+y = np.random.default_rng(20261027).standard_normal(240).cumsum()
+```
+
+This simulated random walk is reproducible; it is not evidence about test size
+or power. Supply a one-dimensional finite numeric series with equally spaced
+observations. Missing values are rejected rather than dropped. Select the
+sample and deterministic terms using the scientific context, plots and theory;
+trying many specifications and reporting the most convenient rejection changes
+the interpretation of nominal significance levels.
+
+| Test | Null hypothesis | Supported `trend` | Rejection tail |
+|---|---|---|---|
+| ADF | stochastic component has a unit root | n, c, ct; ctt with fixed lags only | left |
+| DF-GLS | stochastic component has a unit root | c, ct | left |
+| Phillips–Perron | stochastic component has a unit root | n, c, ct | left |
+| KPSS | stationarity around the stated deterministic terms | c, ct | right |
+
+`n` means no deterministic terms, `c` an intercept, `ct` an intercept and linear
+trend, and `ctt` adds a quadratic trend. Trend stationarity is not stationarity
+around a constant. Tests under different deterministic specifications answer
+different questions.
+
+## ADF and DF-GLS: augmentation order
+
+```python
+fixed_adf = adf(y, trend="c", lags=4)
+fixed_dfgls = dfgls(y, trend="ct", lags=0)
+automatic_adf = adf(y, trend="c", max_lags=12)  # default MAIC
+automatic_dfgls = dfgls(y, trend="ct", method="mbic", max_lags=12)
+print(automatic_adf.summary())
+```
+
+`lags=p` fixes the number of lagged differences, including p=0. Do not combine
+fixed `lags` with `method` or `max_lags`. Automatic selection compares candidate
+p=0,…,K. An omitted K uses the approved Schwert-style rule and feasibility cap;
+a reduced automatic maximum produces a warning. An explicit infeasible order
+raises an error. ADF with `ctt` requires fixed `lags`.
+
+The four explicit automatic methods are:
+
+| Method | Candidate score on a common sample of size n |
+|---|---|
+| AIC | log(σ²ₚ) + 2p/n |
+| BIC | log(σ²ₚ) + log(n)p/n |
+| MAIC, default | log(σ²ₚ) + 2(τₚ+p)/n |
+| MBIC | log(σ²ₚ) + log(n)(τₚ+p)/n |
+
+All use the same full-series OLS detrending and response-level indices
+K+1,…,N−1, so n=N−K−1 for every candidate. The fitted selection regression is
+Δũₜ=γₚũₜ₋₁+Σⱼ₌₁ᵖφⱼΔũₜ₋ⱼ+eₜ. Here σ²ₚ=Σeₜ²/n and
+τₚ=γₚ²Σũₜ₋₁²/σ²ₚ, with the **entire matched lagged-level sum**, including its
+first observation. Constants common to candidates are omitted from scores.
+Conventional AIC/BIC omit τₚ and are not aliases for MAIC/MBIC.
+
+These approved Perron–Qu OLS selection conventions do not use volatility
+rescaling or the bootUR first-level omission. They need not match another
+package's one-step autolag. See `MIC_Methodology.md` and the implementation
+specification for provenance and limits of paper replication.
+
+The selected integer is passed to ARCH's public fixed-lag implementation on
+original levels. DF-GLS performs GLS detrending once inside ARCH; the selector's
+OLS transformation is not fed into that final regression. Final sample size
+is N−1−p and can exceed the common selection sample size.
+
+```python
+selection = select_lags(y, trend="c", method="aic", max_lags=12)
+print(selection.selected_lags, selection.selection_nobs)
+for candidate in selection.candidates:
+    print(candidate.lags, candidate.aic, candidate.bic,
+          candidate.maic, candidate.mbic, candidate.tau)
+print(automatic_adf.lags, automatic_adf.nobs)
+print(automatic_adf.lag_selection.selection_nobs)
+```
+
+## PP and KPSS: covariance bandwidth
+
+```python
+pp_tau = pp(y, trend="c", bandwidth=4)
+pp_rho = pp(y, trend="ct", test_type="rho")
+kpss_fixed = kpss(y, trend="c", bandwidth=0)
+kpss_auto = kpss(y, trend="ct")
+print(pp_rho.summary())
+print(kpss_auto.summary())
+```
+
+PP supports tau (default) and rho statistics. Their scales and calibrations
+are different. Bandwidth controls the Bartlett/Newey–West long-run-variance
+estimate; it is **not** an augmentation order. Neither function takes `lags`,
+`method` or `max_lags`.
+
+With N input levels, PP defaults to
+min(ceil(12(N/100)^(1/4)), N−2); a binding cap warns. Its covariance sample has
+N−1 observations. KPSS delegates automatic bandwidth to ARCH's public
+Hobijn-style calculation on N observations. Fixed bandwidths are nonnegative
+integers, including zero; b<N−1 for PP and b<N for KPSS. KPSS never silently
+caps an infeasible automatic answer. Short or degenerate data can fail even
+when length bounds pass; choose a justified fixed bandwidth or investigate
+the data rather than interpreting an estimation failure as a test outcome.
+
+```python
+print(pp_rho.bandwidth, pp_rho.bandwidth_method, pp_rho.bandwidth_uncapped)
+print(kpss_auto.bandwidth, kpss_auto.bandwidth_method)
+assert pp_tau.lags is None and kpss_auto.lag_selection is None
+```
+
+## Inference and interpretation
+
+```python
+for result in (fixed_adf, fixed_dfgls, pp_tau, kpss_auto):
+    print(result.test, result.null_hypothesis)
+    print(result.statistic, result.pvalue, dict(result.critical_values))
+    print("Reject stated H0 at 5%:", result.reject(.05))
+    print(result.calibration, result.notes)
+```
+
+`reject(alpha)` accepts only .01, .05 or .10. It compares the statistic strictly
+below the matching ARCH critical value for ADF/DF-GLS/PP, strictly above it for
+KPSS. Exact equality does not reject. Approximate p-values remain visible but
+do not override this critical-value decision; rounding and calibration
+approximations can make the two indications differ near a boundary.
+
+A rejection supplies evidence against the stated null under the maintained
+assumptions. Failure to reject is insufficient evidence against it; it does
+not prove a unit root or stationarity. KPSS rejection does not by itself prove
+a unit root. Conflicting results invite investigation of sample, dynamics,
+deterministic terms and assumptions, rather than a mechanical voting rule.
+These tests are not an automatic model-selection procedure.
+
+ARCH's own finite-sample critical values, response-surface p-values and KPSS
+simulated-table interpolation are preserved. Different packages can produce
+different PP statistics or KPSS calibrations even on matched samples.
+Endpoint notes identify approximate saturated p-values, not exact probabilities.
+
+## Regression access, diagnostics and errors
+
+```python
+print(fixed_adf.regression.params)
+print(fixed_dfgls.regression.params)  # regression on GLS-detrended data
+print(pp_tau.regression.cov_type)    # HAC regression from public ARCH
+assert kpss_auto.regression is None
+print(fixed_adf.sample_start, fixed_adf.sample_stop, fixed_adf.versions)
+```
+
+The exposed Statsmodels regressions are mutable backend objects. Their ordinary
+coefficient p-values are not the calibrated unit-root test p-value. Result
+scalars, notes, candidate records and metadata maps are immutable. Sample
+boundaries are zero-based with exclusive stop; KPSS's slice denotes the levels
+used in its residual/partial-sum calculation, not an exposed regression.
+
+Malformed arguments raise TypeError/ValueError. Unusable numerical estimation
+raises `EstimationError`, preserving a numerical cause where available.
+`SpecificationWarning` and stored notes explain caps or poor conditioning.
+Only ARCH's exact historical automatic-KPSS default-change deprecation notice
+is suppressed. Inspect all other warnings and numerical issues before inference.
+
+Run the complete notebook-style sequence locally with
+`python examples/teaching_walkthrough.py`. No network or R is needed once the
+Python dependencies are installed.

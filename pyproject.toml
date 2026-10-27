@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unitroot-tools"
+version = "0.1.0rc1"
+description = "Transparent common-sample lag selection for teaching unit-root methods"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+    "arch==8.0.0",
+    "numpy>=1.26.4,<3",
+    "scipy>=1.11.4,<2",
+    "statsmodels>=0.14.4,<0.16",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "pytest-cov>=5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "--strict-markers"
+filterwarnings = ["error"]
+
+[tool.coverage.run]
+branch = true
+source = ["unitroot_tools"]
+
+[tool.coverage.report]
+show_missing = true
+
+# Teaching references are installed beside the distribution, not runtime code.
+[tool.setuptools.data-files]
+"share/doc/unitroot-tools" = ["README.md"]
+"share/doc/unitroot-tools/docs" = ["docs/*.md"]
+"share/doc/unitroot-tools/examples" = [
+    "examples/adf_dfgls.py",
+    "examples/pp_kpss.py",
+    "examples/teaching_walkthrough.py",
+]
+
+"share/doc/unitroot-tools/validation" = [
+    "validation/Platform_Validation.ipynb",
+    "validation/run_platform_validation.py",
+]

@@ -1,0 +1,18 @@
+# Recorded validation dependencies; install the local candidate separately.
+arch==8.0.0
+coverage==7.17.0
+iniconfig==2.3.1
+numpy==1.26.4
+packaging==26.3
+pandas==2.2.3
+patsy==1.0.3
+pluggy==1.7.0
+Pygments==2.21.0
+pytest==9.1.1
+pytest-cov==7.1.0
+python-dateutil==3.0.0
+pytz==2026.5
+scipy==1.11.4
+six==1.17.0
+statsmodels==0.14.4
+tzdata==2026.5

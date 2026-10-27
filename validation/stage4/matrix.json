@@ -1,0 +1,368 @@
+[
+  {
+    "label": "311-current",
+    "installation_mode": "repository",
+    "commands": {
+      "package-install": 0,
+      "metadata": 0,
+      "pip-check": 0,
+      "freeze": 0,
+      "pytest": 0,
+      "stage2-audit": 0,
+      "stage3b-replay": 0,
+      "stage3c-replay": 0,
+      "adf_dfgls.py": 0,
+      "pp_kpss.py": 0,
+      "teaching_walkthrough.py": 0
+    },
+    "all_passed": true,
+    "metadata": {
+      "python": "3.11.18 (main, Oct 26 2026, 13:58:42) [Clang 23.1.3 ]",
+      "platform": "macOS-26.7.1-arm64-arm-64bit",
+      "prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/env311-current",
+      "base_prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.11.18-macos-aarch64-none",
+      "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/env311-current/lib/python3.11/site-packages/unitroot_tools/__init__.py",
+      "versions": {
+        "arch": "8.0.0",
+        "numpy": "2.4.4",
+        "scipy": "1.17.1",
+        "statsmodels": "0.15.0",
+        "pandas": "3.1.0",
+        "pytest": "9.1.1",
+        "pytest-cov": "7.1.0"
+      },
+      "system_site_packages": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.11-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.11\ninclude-system-site-packages = false\n"
+    },
+    "pytest": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "1164",
+      "time": "57.844",
+      "timestamp": "2026-10-27T19:02:51.229879+01:00",
+      "hostname": "Miguels-MacBook-Pro.local"
+    },
+    "coverage": {
+      "covered_lines": 505,
+      "num_statements": 507,
+      "percent_covered": 99.5405819295559,
+      "percent_covered_display": "99",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 99.60552268244577,
+      "percent_statements_covered_display": "99",
+      "num_branches": 146,
+      "num_partial_branches": 1,
+      "covered_branches": 145,
+      "missing_branches": 1,
+      "percent_branches_covered": 99.31506849315069,
+      "percent_branches_covered_display": "99"
+    }
+  },
+  {
+    "label": "311-lower",
+    "installation_mode": "repository",
+    "commands": {
+      "package-install": 0,
+      "metadata": 0,
+      "pip-check": 0,
+      "freeze": 0,
+      "pytest": 0,
+      "stage2-audit": 0,
+      "stage3b-replay": 0,
+      "stage3c-replay": 0,
+      "adf_dfgls.py": 0,
+      "pp_kpss.py": 0,
+      "teaching_walkthrough.py": 0
+    },
+    "all_passed": true,
+    "metadata": {
+      "python": "3.11.18 (main, Oct 26 2026, 13:58:42) [Clang 23.1.3 ]",
+      "platform": "macOS-26.7.1-arm64-arm-64bit",
+      "prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/env311-lower",
+      "base_prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.11.18-macos-aarch64-none",
+      "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/env311-lower/lib/python3.11/site-packages/unitroot_tools/__init__.py",
+      "versions": {
+        "arch": "8.0.0",
+        "numpy": "1.26.4",
+        "scipy": "1.11.4",
+        "statsmodels": "0.14.4",
+        "pandas": "2.2.3",
+        "pytest": "9.1.1",
+        "pytest-cov": "7.1.0"
+      },
+      "system_site_packages": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.11-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.11\ninclude-system-site-packages = false\n"
+    },
+    "pytest": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "1164",
+      "time": "53.917",
+      "timestamp": "2026-10-27T19:02:56.936490+01:00",
+      "hostname": "Miguels-MacBook-Pro.local"
+    },
+    "coverage": {
+      "covered_lines": 505,
+      "num_statements": 507,
+      "percent_covered": 99.5405819295559,
+      "percent_covered_display": "99",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 99.60552268244577,
+      "percent_statements_covered_display": "99",
+      "num_branches": 146,
+      "num_partial_branches": 1,
+      "covered_branches": 145,
+      "missing_branches": 1,
+      "percent_branches_covered": 99.31506849315069,
+      "percent_branches_covered_display": "99"
+    }
+  },
+  {
+    "label": "312-current",
+    "installation_mode": "repository",
+    "commands": {
+      "package-install": 0,
+      "metadata": 0,
+      "pip-check": 0,
+      "freeze": 0,
+      "pytest": 0,
+      "stage2-audit": 0,
+      "stage3b-replay": 0,
+      "stage3c-replay": 0,
+      "adf_dfgls.py": 0,
+      "pp_kpss.py": 0,
+      "teaching_walkthrough.py": 0
+    },
+    "all_passed": true,
+    "metadata": {
+      "python": "3.12.16 (main, Oct 26 2026, 13:59:40) [Clang 23.1.3 ]",
+      "platform": "macOS-26.7.1-arm64-arm-64bit",
+      "prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/env312-current",
+      "base_prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.12.16-macos-aarch64-none",
+      "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/env312-current/lib/python3.12/site-packages/unitroot_tools/__init__.py",
+      "versions": {
+        "arch": "8.0.0",
+        "numpy": "2.4.4",
+        "scipy": "1.17.1",
+        "statsmodels": "0.15.0",
+        "pandas": "3.1.0",
+        "pytest": "9.1.1",
+        "pytest-cov": "7.1.0"
+      },
+      "system_site_packages": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.12-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.12\ninclude-system-site-packages = false\n"
+    },
+    "pytest": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "1164",
+      "time": "59.056",
+      "timestamp": "2026-10-27T19:02:51.498180+01:00",
+      "hostname": "Miguels-MacBook-Pro.local"
+    },
+    "coverage": {
+      "covered_lines": 505,
+      "num_statements": 507,
+      "percent_covered": 99.5405819295559,
+      "percent_covered_display": "99",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 99.60552268244577,
+      "percent_statements_covered_display": "99",
+      "num_branches": 146,
+      "num_partial_branches": 1,
+      "covered_branches": 145,
+      "missing_branches": 1,
+      "percent_branches_covered": 99.31506849315069,
+      "percent_branches_covered_display": "99"
+    }
+  },
+  {
+    "label": "312-lower",
+    "installation_mode": "repository",
+    "commands": {
+      "package-install": 0,
+      "metadata": 0,
+      "pip-check": 0,
+      "freeze": 0,
+      "pytest": 0,
+      "stage2-audit": 0,
+      "stage3b-replay": 0,
+      "stage3c-replay": 0,
+      "adf_dfgls.py": 0,
+      "pp_kpss.py": 0,
+      "teaching_walkthrough.py": 0
+    },
+    "all_passed": true,
+    "metadata": {
+      "python": "3.12.16 (main, Oct 26 2026, 13:59:40) [Clang 23.1.3 ]",
+      "platform": "macOS-26.7.1-arm64-arm-64bit",
+      "prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/env312-lower",
+      "base_prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.12.16-macos-aarch64-none",
+      "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/env312-lower/lib/python3.12/site-packages/unitroot_tools/__init__.py",
+      "versions": {
+        "arch": "8.0.0",
+        "numpy": "1.26.4",
+        "scipy": "1.11.4",
+        "statsmodels": "0.14.4",
+        "pandas": "2.2.3",
+        "pytest": "9.1.1",
+        "pytest-cov": "7.1.0"
+      },
+      "system_site_packages": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.12-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.12\ninclude-system-site-packages = false\n"
+    },
+    "pytest": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "1164",
+      "time": "59.181",
+      "timestamp": "2026-10-27T19:04:17.046257+01:00",
+      "hostname": "Miguels-MacBook-Pro.local"
+    },
+    "coverage": {
+      "covered_lines": 505,
+      "num_statements": 507,
+      "percent_covered": 99.5405819295559,
+      "percent_covered_display": "99",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 99.60552268244577,
+      "percent_statements_covered_display": "99",
+      "num_branches": 146,
+      "num_partial_branches": 1,
+      "covered_branches": 145,
+      "missing_branches": 1,
+      "percent_branches_covered": 99.31506849315069,
+      "percent_branches_covered_display": "99"
+    }
+  },
+  {
+    "label": "313-current",
+    "installation_mode": "repository",
+    "commands": {
+      "package-install": 0,
+      "metadata": 0,
+      "pip-check": 0,
+      "freeze": 0,
+      "pytest": 0,
+      "stage2-audit": 0,
+      "stage3b-replay": 0,
+      "stage3c-replay": 0,
+      "adf_dfgls.py": 0,
+      "pp_kpss.py": 0,
+      "teaching_walkthrough.py": 0
+    },
+    "all_passed": true,
+    "metadata": {
+      "python": "3.13.18 (main, Oct 26 2026, 13:59:02) [Clang 23.1.3 ]",
+      "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+      "prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/env313-current",
+      "base_prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.13.18-macos-aarch64-none",
+      "module": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/env313-current/lib/python3.13/site-packages/unitroot_tools/__init__.py",
+      "versions": {
+        "arch": "8.0.0",
+        "numpy": "2.4.4",
+        "scipy": "1.17.1",
+        "statsmodels": "0.15.0",
+        "pandas": "3.1.0",
+        "pytest": "9.1.1",
+        "pytest-cov": "7.1.0"
+      },
+      "system_site_packages": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.13-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.13\ninclude-system-site-packages = false\n"
+    },
+    "pytest": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "1164",
+      "time": "61.744",
+      "timestamp": "2026-10-27T19:04:10.890390+01:00",
+      "hostname": "Miguels-MacBook-Pro.local"
+    },
+    "coverage": {
+      "covered_lines": 505,
+      "num_statements": 507,
+      "percent_covered": 99.5405819295559,
+      "percent_covered_display": "99",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 99.60552268244577,
+      "percent_statements_covered_display": "99",
+      "num_branches": 146,
+      "num_partial_branches": 1,
+      "covered_branches": 145,
+      "missing_branches": 1,
+      "percent_branches_covered": 99.31506849315069,
+      "percent_branches_covered_display": "99"
+    }
+  },
+  {
+    "label": "314-current",
+    "installation_mode": "editable",
+    "commands": {
+      "package-install": 0,
+      "metadata": 0,
+      "pip-check": 0,
+      "freeze": 0,
+      "pytest": 0,
+      "stage2-audit": 0,
+      "stage3b-replay": 0,
+      "stage3c-replay": 0,
+      "adf_dfgls.py": 0,
+      "pp_kpss.py": 0,
+      "teaching_walkthrough.py": 0
+    },
+    "all_passed": true,
+    "metadata": {
+      "python": "3.14.10 (main, Oct 26 2026, 13:59:48) [Clang 23.1.3 ]",
+      "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+      "prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/env314-current",
+      "base_prefix": "/Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.14.10-macos-aarch64-none",
+      "module": "/Users/maarranz/GitHub/UnitRoot-Tools/src/unitroot_tools/__init__.py",
+      "versions": {
+        "arch": "8.0.0",
+        "numpy": "2.4.4",
+        "scipy": "1.17.1",
+        "statsmodels": "0.15.0",
+        "pandas": "3.1.0",
+        "pytest": "9.1.1",
+        "pytest-cov": "7.1.0"
+      },
+      "system_site_packages": "home = /Users/maarranz/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/stage4/python/cpython-3.14-macos-aarch64-none/bin\nimplementation = CPython\nuv = 0.13.6\nversion_info = 3.14\ninclude-system-site-packages = false\n"
+    },
+    "pytest": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "1164",
+      "time": "61.512",
+      "timestamp": "2026-10-27T19:04:12.564351+01:00",
+      "hostname": "Miguels-MacBook-Pro.local"
+    },
+    "coverage": {
+      "covered_lines": 458,
+      "num_statements": 460,
+      "percent_covered": 99.5049504950495,
+      "percent_covered_display": "99",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 99.56521739130434,
+      "percent_statements_covered_display": "99",
+      "num_branches": 146,
+      "num_partial_branches": 1,
+      "covered_branches": 145,
+      "missing_branches": 1,
+      "percent_branches_covered": 99.31506849315069,
+      "percent_branches_covered_display": "99"
+    }
+  }
+]

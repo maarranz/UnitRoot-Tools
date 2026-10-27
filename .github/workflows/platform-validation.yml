@@ -1,0 +1,56 @@
+name: Manual release-candidate platform validation
+
+# Prepared only; no automatic trigger, publishing, tagging or repository writes.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {python: '3.11', stack: current}
+          - {python: '3.12', stack: current}
+          - {python: '3.13', stack: current}
+          - {python: '3.14', stack: current}
+          - {python: '3.11', stack: lower}
+          - {python: '3.12', stack: lower}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Create isolated environment and install numerical stack
+        env:
+          STACK: ${{ matrix.stack }}
+        run: |
+          python -m venv "$RUNNER_TEMP/rc-env"
+          py="$RUNNER_TEMP/rc-env/bin/python"
+          "$py" -m pip install build 'setuptools>=77' pytest==9.1.1 pytest-cov==7.1.0
+          if [ "$STACK" = lower ]; then
+            "$py" -m pip install --only-binary=:all: arch==8.0.0 numpy==1.26.4 scipy==1.11.4 statsmodels==0.14.4 pandas==2.2.3
+          else
+            "$py" -m pip install --only-binary=:all: arch==8.0.0 numpy==2.4.4 scipy==1.17.1 statsmodels==0.15.0 pandas==3.1.0
+          fi
+      - name: Build, inspect and install candidate wheel
+        run: |
+          py="$RUNNER_TEMP/rc-env/bin/python"
+          "$py" -m build --no-isolation --outdir "$RUNNER_TEMP/rc-dist"
+          "$py" validation/inspect_distributions.py --dist "$RUNNER_TEMP/rc-dist" --report "$RUNNER_TEMP/distributions.json"
+          "$py" -m pip install --no-deps "$RUNNER_TEMP/rc-dist/unitroot_tools-0.1.0rc1-py3-none-any.whl"
+      - name: Validate installed package, numerical evidence and teaching examples
+        run: |
+          "$RUNNER_TEMP/rc-env/bin/python" validation/run_platform_validation.py --source "$GITHUB_WORKSPACE" --out "$RUNNER_TEMP/rc-results"
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: linux-${{ matrix.python }}-${{ matrix.stack }}
+          path: |
+            ${{ runner.temp }}/rc-results
+            ${{ runner.temp }}/distributions.json
+            ${{ runner.temp }}/rc-dist

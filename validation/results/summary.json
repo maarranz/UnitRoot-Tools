@@ -1,0 +1,152 @@
+{
+  "ADF": {
+    "comparisons": 240,
+    "max_abs_difference": 1.7763568394002505e-15,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "ARCH_bootUR_MAIC_ADF": {
+    "comparisons": 36,
+    "max_abs_difference": 10.0,
+    "differences_over_1e_8": 7,
+    "expected_failures": 0
+  },
+  "ARCH_bootUR_MAIC_DFGLS": {
+    "comparisons": 24,
+    "max_abs_difference": 1.0,
+    "differences_over_1e_8": 1,
+    "expected_failures": 0
+  },
+  "ARCH_dev_MAIC_ADF_criterion_full": {
+    "comparisons": 36,
+    "max_abs_difference": 2.2620794126737565e-14,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "ARCH_dev_MAIC_ADF_criterion_low": {
+    "comparisons": 36,
+    "max_abs_difference": 2.285671651947041e-14,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "ARCH_dev_MAIC_ADF_memory": {
+    "comparisons": 36,
+    "max_abs_difference": 0.0,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "ARCH_dev_MAIC_ADF_oracle": {
+    "comparisons": 36,
+    "max_abs_difference": 0.0,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "ARCH_dev_MAIC_DFGLS_criterion_full": {
+    "comparisons": 24,
+    "max_abs_difference": 2.4147350785597155e-15,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "ARCH_dev_MAIC_DFGLS_criterion_low": {
+    "comparisons": 24,
+    "max_abs_difference": 5.662137425588298e-15,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "ARCH_dev_MAIC_DFGLS_memory": {
+    "comparisons": 24,
+    "max_abs_difference": 0.0,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "ARCH_dev_MAIC_DFGLS_oracle": {
+    "comparisons": 24,
+    "max_abs_difference": 0.0,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "DFGLS": {
+    "comparisons": 96,
+    "max_abs_difference": 0.31894296157927515,
+    "differences_over_1e_8": 72,
+    "expected_failures": 0
+  },
+  "KPSS": {
+    "comparisons": 120,
+    "max_abs_difference": 0.03093507074918886,
+    "differences_over_1e_8": 96,
+    "expected_failures": 0
+  },
+  "MBIC_PQ_full_vs_bootUR": {
+    "comparisons": 36,
+    "max_abs_difference": 0.0,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "PP_reconciled_ARCH": {
+    "comparisons": 48,
+    "max_abs_difference": 7.389644451905042e-13,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "PP_reconciled_R": {
+    "comparisons": 48,
+    "max_abs_difference": 2.1316282072803006e-12,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "PP_rho": {
+    "comparisons": 24,
+    "max_abs_difference": 1.297161193184138,
+    "differences_over_1e_8": 24,
+    "expected_failures": 0
+  },
+  "PP_tau": {
+    "comparisons": 24,
+    "max_abs_difference": 0.031518998709593404,
+    "differences_over_1e_8": 24,
+    "expected_failures": 0
+  },
+  "bootUR_MAIC_oracle_one_step": {
+    "comparisons": 36,
+    "max_abs_difference": 0.0,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "bootUR_MAIC_oracle_two_step": {
+    "comparisons": 36,
+    "max_abs_difference": 0.0,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "bootUR_MAIC_raw_lag_reporting": {
+    "comparisons": 36,
+    "max_abs_difference": 0.0,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "bootUR_MBIC_oracle_one_step": {
+    "comparisons": 36,
+    "max_abs_difference": 0.0,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "bootUR_MBIC_oracle_two_step": {
+    "comparisons": 36,
+    "max_abs_difference": 0.0,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "bootUR_MBIC_raw_lag_reporting": {
+    "comparisons": 36,
+    "max_abs_difference": 0.0,
+    "differences_over_1e_8": 0,
+    "expected_failures": 0
+  },
+  "bootUR_rescaling_sensitivity": {
+    "comparisons": 36,
+    "max_abs_difference": 2.0,
+    "differences_over_1e_8": 3,
+    "expected_failures": 0
+  }
+}

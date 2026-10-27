@@ -1,0 +1,21 @@
+{
+  "python": "3.11.18",
+  "versions": {
+    "unitroot_tools": "0.1.0rc1",
+    "arch": "8.0.0",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "statsmodels": "0.14.4"
+  },
+  "model_pairs": 312,
+  "automatic_selections": 240,
+  "absolute_tolerance": 1e-08,
+  "max_absolute_differences": {
+    "saved_statistic": 2.7924329515371937e-12,
+    "saved_pvalue": 1.5816514764566136e-13,
+    "saved_critical_value": 0.0,
+    "public_statistic": 0.0,
+    "public_pvalue": 0.0,
+    "public_critical_value": 0.0
+  }
+}

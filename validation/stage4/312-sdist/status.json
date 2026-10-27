@@ -1,0 +1,12 @@
+{
+  "label": "312-sdist",
+  "artifact": "unitroot_tools-0.1.0.dev0.tar.gz",
+  "commands": {
+    "install": 0,
+    "smoke": 0,
+    "pip-check": 0,
+    "freeze": 0,
+    "pytest": 0
+  },
+  "all_passed": true
+}

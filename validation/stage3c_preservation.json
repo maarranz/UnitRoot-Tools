@@ -1,0 +1,13 @@
+{
+  "baseline_files": 25,
+  "changed_existing_files": [
+    "src/unitroot_tools/results.py",
+    "src/unitroot_tools/__init__.py",
+    "src/unitroot_tools/_adapters.py",
+    "tests/test_selection.py"
+  ],
+  "protected_stage2_result_files_unchanged": 11,
+  "adf_dfgls_functions_ast_unchanged": true,
+  "selector_records_ast_unchanged": true,
+  "selector_source_validation_errors_version_pyproject_unchanged": true
+}
