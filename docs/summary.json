@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "identity_hash": "d8265584c70f2b6f4e13dd98dfe3759c993a35a06ae6168d1a9bae5a69c130b7",
+  "cells": 100,
+  "null_cells": 17,
+  "replications_per_cell": 200,
+  "cell_replications": 20000,
+  "method_alpha_decisions": 420000,
+  "failure_records": 0,
+  "warning_records": 0,
+  "equivalence_checks": 6000,
+  "nesting_violations": 0,
+  "source": "/Users/maarranz/Documents/Codex/2026-10-28/continue-the-unfinished-theoretical-audit-of/work/experiment-a-pilot/pilot",
+  "table_rows": {
+    "rejection_rates": 2100,
+    "selection_frequencies": 6300,
+    "enders_terminals": 2100,
+    "enders_paths": 2330,
+    "paired_differences": 6300,
+    "ic_margins": 200
+  },
+  "caution": "Exploratory pilot; per-cell Monte Carlo intervals are pointwise. No overall nominal-size claim, no main experiment, no size-adjusted calibration."
+}
