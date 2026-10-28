@@ -132,3 +132,17 @@ by default. Conservative Enders is a proposed modification. Both expose the
 full decision history; neither guarantees overall nominal size after pretesting.
 See [procedure definitions and API](docs/Enders.md) for inference conventions,
 limitations, reference reproduction, and `allow_no_constant`.
+
+## Experimental deterministic specification selection
+
+`select_deterministic(y, lags=1, criterion="bic")` compares unrestricted n/c/ct
+ADF regressions on the same raw-data sample at one mandatory fixed lag order.
+Both total Gaussian AIC/BIC scores include the variance parameter. The result
+retains all candidates and reports selection margins, without a selector-level
+p-value or rejection decision.
+
+**Fixed-specification ADF p-value reported after selection.** The nested ADF
+calibration ignores deterministic selection and upstream lag selection; it is
+not a selective p-value conditional on winning and provides no overall nominal
+size guarantee. Including n may be unsuitable for economic series; strong theory
+favors prespecified ADF. See [methodology, API and example](docs/Deterministic_Selection.md).

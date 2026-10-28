@@ -215,3 +215,30 @@ See [Enders procedures](Enders.md) for the complete API, original versus
 conservative rules, finite-table conventions and conditional-inference caveats.
 The conservative variant is a proposed modification; its default preserves
 the constant and the nonstandard tau2 decision.
+
+## Experimental deterministic AIC/BIC comparison
+
+Use `select_deterministic(y, lags=p, criterion="bic")` to compare n/c/ct at a
+supplied integer p; BIC is the default and AIC is optional. Every candidate uses
+the same original-data response sample N−1−p. The total likelihood scores count
+all regression coefficients and the innovation variance. Both scores, the
+selected specification, sample boundaries and runner-up gap are retained.
+This selects deterministic terms; it does not select augmentation lags or apply
+Enders's sequential branch tests.
+
+```python
+from unitroot_tools import select_deterministic
+
+deterministic = select_deterministic(y, lags=4, criterion="bic")
+print(deterministic.summary())
+print(deterministic.selected_specification, deterministic.score_differences)
+```
+
+**Fixed-specification ADF p-value reported after selection.** The nested result
+uses ordinary ADF calibration, ignores deterministic and upstream lag selection,
+and is not a selective p-value conditional on winning. No overall nominal size
+guarantee follows. The selector exposes no pvalue or reject() method. Including
+n may be inappropriate for economic series and selection does not prove drift
+or trend presence/absence; prefer prespecified ADF where theory gives guidance.
+See [the detailed methodology and result contract](Deterministic_Selection.md)
+for formulas, errors, a reproducible disagreement example and research limits.
