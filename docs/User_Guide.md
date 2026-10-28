@@ -2,8 +2,9 @@
 
 UnitRoot-Tools provides `adf`, `dfgls`, `pp`, `kpss` and `select_lags` for
 teaching applied time-series econometrics. It uses released **ARCH 8.0.0** for
-final test statistics and inference. It does not automatically choose a model
-or determine whether differencing is appropriate.
+final test statistics and inference for those four tests. The separate `enders`
+function provides sequential deterministic-specification decisions; it does
+not decide automatically whether economic differencing is appropriate.
 
 ## Installation and first run
 
@@ -200,3 +201,17 @@ is suppressed. Inspect all other warnings and numerical issues before inference.
 Run the complete notebook-style sequence locally with
 `python examples/teaching_walkthrough.py`. No network or R is needed once the
 Python dependencies are installed.
+
+## Sequential Enders procedures
+
+```python
+from unitroot_tools import enders
+result = enders(y, variant="conservative", max_lags=12)
+print(result.summary())
+print(result.trend, result.reject_unit_root, result.terminal_test)
+```
+
+See [Enders procedures](Enders.md) for the complete API, original versus
+conservative rules, finite-table conventions and conditional-inference caveats.
+The conservative variant is a proposed modification; its default preserves
+the constant and the nonstandard tau2 decision.

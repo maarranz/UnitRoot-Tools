@@ -1,7 +1,8 @@
 # UnitRoot-Tools
 
 A small teaching API for four unit-root/stationarity tests and transparent
-lag selection. This is an unpublished release candidate; the version is
+lag selection, plus auditable Original and Conservative Enders specification
+procedures. This is an unpublished release candidate; the version is
 `0.1.0rc1`. No PyPI or GitHub release is assumed.
 
 ## Install and learn
@@ -122,3 +123,12 @@ not by itself prove a unit root. KPSS exposes no public regression. Approximate
 p-values and endpoint notes retain ARCH's own calibration, which can differ
 from R urca and Statsmodels. Only ARCH's exact historical KPSS default-change
 deprecation notice is suppressed; other warnings remain visible.
+
+## Sequential deterministic specification
+
+`enders(y)` implements the Original Enders sequence;
+`enders(y, variant="conservative")` retains the constant on tau2 nonrejection
+by default. Conservative Enders is a proposed modification. Both expose the
+full decision history; neither guarantees overall nominal size after pretesting.
+See [procedure definitions and API](docs/Enders.md) for inference conventions,
+limitations, reference reproduction, and `allow_no_constant`.

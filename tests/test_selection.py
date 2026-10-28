@@ -142,7 +142,7 @@ def test_stage_exports_and_public_backend_boundary():
     import ast
     from pathlib import Path
     assert all(hasattr(unitroot_tools,x) for x in ("adf","dfgls","pp","kpss","UnitRootResult"))
-    assert set(unitroot_tools.__all__)=={"select_lags","adf","dfgls","pp","kpss","UnitRootResult","LagSelectionResult","CandidateDiagnostics","EstimationError","SpecificationWarning"}
+    assert set(unitroot_tools.__all__)=={"enders","select_lags","adf","dfgls","pp","kpss","UnitRootResult","LagSelectionResult","CandidateDiagnostics","EstimationError","SpecificationWarning"}
     for path in Path(unitroot_tools.__file__).parent.glob("*.py"):
         for node in ast.walk(ast.parse(path.read_text())):
             if isinstance(node,ast.Import):
