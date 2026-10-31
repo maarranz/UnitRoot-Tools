@@ -4,9 +4,11 @@ from numbers import Real
 from types import MappingProxyType
 
 import numpy as np
-from scipy import linalg, stats
+from scipy import stats
+import warnings
 
-from ._adapters import adf, _check_regression
+from ._adapters import adf, _check_regression, _NUMERICAL
+from ._regression import scaled_ols, residual_ssr
 from ._validation import label, optional_order, series
 from .errors import EstimationError
 
@@ -93,6 +95,25 @@ class EndersResult:
         return '\n'.join(lines)
 
 
+def _enders_regression(y, design, nobs, context):
+    """One stable named OLS fit, with the existing final-regression safeguards."""
+    from statsmodels.tools.sm_exceptions import SingularMatrixWarning
+
+    try:
+        with warnings.catch_warnings(), np.errstate(over="raise", divide="raise", invalid="raise"):
+            warnings.simplefilter("error", RuntimeWarning)
+            warnings.simplefilter("error", SingularMatrixWarning)
+            if not np.isfinite(np.asarray(y)).all() or not np.isfinite(np.asarray(design)).all():
+                raise EstimationError(f"{context}: non-finite regression arrays")
+            fit = scaled_ols(y, design, context)
+            _check_regression(fit, nobs, design.shape[1], context)
+    except EstimationError:
+        raise
+    except (_NUMERICAL + (SingularMatrixWarning,)) as exc:
+        raise EstimationError(f"{context}: stable estimation failed; check data scale and specification") from exc
+    return fit
+
+
 def _joint(result):
     reg = result.regression
     names = list(reg.model.exog_names)
@@ -103,8 +124,17 @@ def _joint(result):
     keep = [i for i, name in enumerate(names) if name not in removed]
     x = np.asarray(reg.model.exog)[:, keep]
     y = np.asarray(reg.model.endog)
-    residual = y - x @ linalg.lstsq(x, y)[0] if keep else y
-    rss = float(residual @ residual)
+    if (not np.isfinite((reg.ssr, reg.df_resid)).all()
+            or reg.ssr <= 0 or reg.df_resid <= 0):
+        raise EstimationError('Invalid nested-regression residual variance or degrees of freedom')
+    if keep:
+        from pandas import DataFrame
+        design = DataFrame(x, columns=[names[i] for i in keep])
+        fit = _enders_regression(y, design, result.nobs, 'Enders restricted regression')
+        rss = float(fit.ssr)
+    else:
+        # The p=0, c restriction has no fitted columns: its residual is y.
+        rss = residual_ssr(y, 'Enders empty restricted regression')
     value = (rss-float(reg.ssr))/2 / (float(reg.ssr)/reg.df_resid)
     if not np.isfinite(value) or value < -1e-8:
         raise EstimationError('Invalid nested-regression joint statistic')
@@ -117,11 +147,9 @@ def _auxiliary(result):
     keep = [i for i, name in enumerate(names) if name != 'Level.L1']
     if len(keep) != len(names)-1:
         raise EstimationError('Unexpected ARCH ADF level regressor')
-    from statsmodels.regression.linear_model import OLS
     from pandas import DataFrame
     design = DataFrame(np.asarray(reg.model.exog)[:, keep], columns=[names[i] for i in keep])
-    fit = OLS(np.asarray(reg.model.endog), design).fit()
-    _check_regression(fit, result.nobs, len(keep), 'Enders auxiliary regression')
+    fit = _enders_regression(np.asarray(reg.model.endog), design, result.nobs, 'Enders auxiliary regression')
     term = 'trend' if result.trend == 'ct' else 'const'
     j = [names[i] for i in keep].index(term)
     return fit, float(np.asarray(fit.tvalues)[j])

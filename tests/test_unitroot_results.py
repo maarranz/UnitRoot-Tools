@@ -79,18 +79,16 @@ def test_automatic_summary_and_series_name():
 
 
 def test_approximation_endpoints_are_not_claimed_exact(monkeypatch):
-    from types import SimpleNamespace
-    import arch.unitroot as public
+    import unitroot_tools._adapters as adapters
     y=np.random.default_rng(9).normal(size=40)
-    native=public.ADF(y,lags=0)
+    native=adf(y,lags=0)
     for p,endpoint in [(0.,'lower_endpoint'),(1.,'upper_endpoint')]:
-        wrapped=SimpleNamespace(stat=native.stat,pvalue=p,nobs=native.nobs,lags=0,
-                                critical_values=native.critical_values,regression=native.regression)
-        monkeypatch.setattr(public,'ADF',lambda *args,_wrapped=wrapped,**kwargs:_wrapped)
+        monkeypatch.setattr(adapters,'_adf_calibration',
+                            lambda *args,_p=p:(_p,dict(native.critical_values)))
         r=adf(y,lags=0)
-        assert r.pvalue_boundary==endpoint
+        assert r.pvalue == p and r.pvalue_boundary==endpoint
         assert 'not an exact tail probability' in r.summary()
-        assert r.reject()==bool(native.stat < native.critical_values['5%'])
+        assert r.reject()==native.reject()
 
 
 def test_unsupported_tail_is_not_a_kpss_implementation(result):

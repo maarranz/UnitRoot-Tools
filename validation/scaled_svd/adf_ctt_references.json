@@ -1,0 +1,57 @@
+{
+  "provenance": "Preserved 30 October 2026 independently computed Decimal 120-digit references; exact input CSV unchanged. Reproduce with validation/scaled_svd/verify_adf_references.py. Raw ARCH values are diagnostics, not accuracy oracles for these four cases.",
+  "cases": [
+    {
+      "series": "rw_negma",
+      "lags": 0,
+      "raw_stat": -11.752256901057622,
+      "scaled_stat": -11.752256901055627,
+      "reference_stat": -11.75225690105562,
+      "scaled_minus_raw": 1.9948487306464813e-12,
+      "raw_minus_reference": -2.0019541580040823e-12,
+      "scaled_minus_reference": -7.105427357601002e-15,
+      "established_absolute_tolerance": 1e-12,
+      "raw_and_scaled_designs_exactly_equal": true,
+      "same_critical_decisions": true
+    },
+    {
+      "series": "hetero_rw",
+      "lags": 0,
+      "raw_stat": -1.2008196950042016,
+      "scaled_stat": -1.2008196950031496,
+      "reference_stat": -1.2008196950031498,
+      "scaled_minus_raw": 1.0520473381347983e-12,
+      "raw_minus_reference": -1.0518252935298733e-12,
+      "scaled_minus_reference": 2.220446049250313e-16,
+      "established_absolute_tolerance": 1e-12,
+      "raw_and_scaled_designs_exactly_equal": true,
+      "same_critical_decisions": true
+    },
+    {
+      "series": "rw_negma",
+      "lags": 4,
+      "raw_stat": -4.282434791178119,
+      "scaled_stat": -4.28243479117504,
+      "reference_stat": -4.282434791175038,
+      "scaled_minus_raw": 3.079314581100334e-12,
+      "raw_minus_reference": -3.0810909379397344e-12,
+      "scaled_minus_reference": -1.7763568394002505e-15,
+      "established_absolute_tolerance": 1e-12,
+      "raw_and_scaled_designs_exactly_equal": true,
+      "same_critical_decisions": true
+    },
+    {
+      "series": "trend_ar08",
+      "lags": 4,
+      "raw_stat": -4.127040912515371,
+      "scaled_stat": -4.12704091251263,
+      "reference_stat": -4.127040912512628,
+      "scaled_minus_raw": 2.7409186031945865e-12,
+      "raw_minus_reference": -2.7426949600339867e-12,
+      "scaled_minus_reference": -1.7763568394002505e-15,
+      "established_absolute_tolerance": 1e-12,
+      "raw_and_scaled_designs_exactly_equal": true,
+      "same_critical_decisions": true
+    }
+  ]
+}

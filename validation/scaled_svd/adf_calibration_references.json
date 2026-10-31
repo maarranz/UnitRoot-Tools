@@ -1,0 +1,6285 @@
+{
+  "provenance": "Frozen evaluations of released ARCH 8.0.0, recorded 30 October 2026; no coefficients copied. Source SHA256 ac09ac91bf3e5c9451d3c03d5ea896004de50fa10ae8fbafe7c47026abeef686",
+  "comparisons": [
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -100.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -30.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -29.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -29.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -29.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -29.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -28.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -28.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -28.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -28.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -27.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -27.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -27.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -27.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -26.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -26.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -26.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -26.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -25.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -25.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -25.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -25.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -24.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -24.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -24.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -24.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -23.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -23.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -23.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -23.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -22.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -22.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -22.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -22.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -21.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -21.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -21.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -21.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -20.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -20.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -20.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -20.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -19.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -19.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -19.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -19.040000000000003,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -19.04,
+      "arch": 3.4690030148734945e-29,
+      "statsmodels": 3.4690030148734945e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -19.039999999999996,
+      "arch": 3.4690030148734945e-29,
+      "statsmodels": 3.4690030148734945e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -19.0,
+      "arch": 3.471581028000093e-29,
+      "statsmodels": 3.471581028000093e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -18.75,
+      "arch": 3.581324488669973e-29,
+      "statsmodels": 3.581324488669973e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -18.5,
+      "arch": 3.8669968336991117e-29,
+      "statsmodels": 3.8669968336991117e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -18.25,
+      "arch": 4.370004305566299e-29,
+      "statsmodels": 4.370004305566299e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -18.0,
+      "arch": 5.16785848934113e-29,
+      "statsmodels": 5.16785848934113e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -17.75,
+      "arch": 6.394130956956943e-29,
+      "statsmodels": 6.394130956956943e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -17.5,
+      "arch": 8.275509567317438e-29,
+      "statsmodels": 8.275509567317438e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -17.25,
+      "arch": 1.120028522457795e-28,
+      "statsmodels": 1.120028522457795e-28,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -17.0,
+      "arch": 1.584681661945062e-28,
+      "statsmodels": 1.584681661945062e-28,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -16.75,
+      "arch": 2.3429864170734295e-28,
+      "statsmodels": 2.3429864170734295e-28,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -16.5,
+      "arch": 3.6184882150390994e-28,
+      "statsmodels": 3.6184882150390994e-28,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -16.25,
+      "arch": 5.834555356006078e-28,
+      "statsmodels": 5.834555356006078e-28,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -16.0,
+      "arch": 9.81711399653257e-28,
+      "statsmodels": 9.81711399653257e-28,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -15.75,
+      "arch": 1.722686832905395e-27,
+      "statsmodels": 1.722686832905395e-27,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -15.5,
+      "arch": 3.1506846933887963e-27,
+      "statsmodels": 3.1506846933887963e-27,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -15.25,
+      "arch": 6.001890414696243e-27,
+      "statsmodels": 6.001890414696243e-27,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -15.0,
+      "arch": 1.1899886636628917e-26,
+      "statsmodels": 1.1899886636628917e-26,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -14.75,
+      "arch": 2.453777099663079e-26,
+      "statsmodels": 2.453777099663079e-26,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -14.5,
+      "arch": 5.257866449693588e-26,
+      "statsmodels": 5.257866449693588e-26,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -14.25,
+      "arch": 1.169740572474718e-25,
+      "statsmodels": 1.169740572474718e-25,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -14.0,
+      "arch": 2.6994625470538107e-25,
+      "statsmodels": 2.6994625470538107e-25,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -13.75,
+      "arch": 6.455855458276933e-25,
+      "statsmodels": 6.455855458276933e-25,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -13.5,
+      "arch": 1.5983755879460894e-24,
+      "statsmodels": 1.5983755879460894e-24,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -13.25,
+      "arch": 4.092522469547604e-24,
+      "statsmodels": 4.092522469547604e-24,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -13.0,
+      "arch": 1.0824504124695649e-23,
+      "statsmodels": 1.0824504124695649e-23,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -12.75,
+      "arch": 2.954105794234991e-23,
+      "statsmodels": 2.954105794234991e-23,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -12.5,
+      "arch": 8.30845899162322e-23,
+      "statsmodels": 8.30845899162322e-23,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -12.25,
+      "arch": 2.4051688252658894e-22,
+      "statsmodels": 2.4051688252658894e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -12.0,
+      "arch": 7.157057771621508e-22,
+      "statsmodels": 7.157057771621508e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -11.75,
+      "arch": 2.1862488009140502e-21,
+      "statsmodels": 2.1862488009140502e-21,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -11.5,
+      "arch": 6.845923401757704e-21,
+      "statsmodels": 6.845923401757704e-21,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -11.25,
+      "arch": 2.1943316066705353e-20,
+      "statsmodels": 2.1943316066705353e-20,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -11.0,
+      "arch": 7.18885596989965e-20,
+      "statsmodels": 7.18885596989965e-20,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -10.75,
+      "arch": 2.4034403010921537e-19,
+      "statsmodels": 2.4034403010921537e-19,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -10.5,
+      "arch": 8.187115666020195e-19,
+      "statsmodels": 8.187115666020195e-19,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -10.25,
+      "arch": 2.8368728837951672e-18,
+      "statsmodels": 2.8368728837951672e-18,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -10.0,
+      "arch": 9.982215385812495e-18,
+      "statsmodels": 9.982215385812495e-18,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -9.75,
+      "arch": 3.560724365051074e-17,
+      "statsmodels": 3.560724365051074e-17,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -9.5,
+      "arch": 1.2852866228907936e-16,
+      "statsmodels": 1.2852866228907936e-16,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -9.25,
+      "arch": 4.686163057362072e-16,
+      "statsmodels": 4.686163057362072e-16,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -9.0,
+      "arch": 1.7225664738984367e-15,
+      "statsmodels": 1.7225664738984367e-15,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -8.75,
+      "arch": 6.371492351199152e-15,
+      "statsmodels": 6.371492351199152e-15,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -8.5,
+      "arch": 2.366783164218653e-14,
+      "statsmodels": 2.366783164218653e-14,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -8.25,
+      "arch": 8.81158014140777e-14,
+      "statsmodels": 8.81158014140777e-14,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -8.0,
+      "arch": 3.2812066723897195e-13,
+      "statsmodels": 3.2812066723897195e-13,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -7.75,
+      "arch": 1.2195092468956714e-12,
+      "statsmodels": 1.2195092468956714e-12,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -7.5,
+      "arch": 4.5141572178829726e-12,
+      "statsmodels": 4.5141572178829726e-12,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -7.25,
+      "arch": 1.6605735400960998e-11,
+      "statsmodels": 1.6605735400960998e-11,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -7.0,
+      "arch": 6.0570476919599e-11,
+      "statsmodels": 6.0570476919599e-11,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -6.75,
+      "arch": 2.1857434593762525e-10,
+      "statsmodels": 2.1857434593762525e-10,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -6.5,
+      "arch": 7.785192724011512e-10,
+      "statsmodels": 7.785192724011512e-10,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -6.25,
+      "arch": 2.7305594640583737e-09,
+      "statsmodels": 2.7305594640583737e-09,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -6.0,
+      "arch": 9.408280965923412e-09,
+      "statsmodels": 9.408280965923412e-09,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -5.75,
+      "arch": 3.176834770951358e-08,
+      "statsmodels": 3.176834770951358e-08,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -5.5,
+      "arch": 1.048673141597632e-07,
+      "statsmodels": 1.048673141597632e-07,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -5.25,
+      "arch": 3.375745398433652e-07,
+      "statsmodels": 3.375745398433652e-07,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -5.0,
+      "arch": 1.0570487880413705e-06,
+      "statsmodels": 1.0570487880413705e-06,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -4.75,
+      "arch": 3.2115803087214565e-06,
+      "statsmodels": 3.2115803087214565e-06,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -4.5,
+      "arch": 9.443579625324582e-06,
+      "statsmodels": 9.443579625324582e-06,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -4.25,
+      "arch": 2.6806508072524726e-05,
+      "statsmodels": 2.6806508072524726e-05,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -4.0,
+      "arch": 7.326906489110129e-05,
+      "statsmodels": 7.326906489110129e-05,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -3.75,
+      "arch": 0.00019234138401779,
+      "statsmodels": 0.00019234138401779,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -3.5,
+      "arch": 0.0004837274025737187,
+      "statsmodels": 0.0004837274025737187,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -3.25,
+      "arch": 0.0011625856093140335,
+      "statsmodels": 0.0011625856093140335,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -3.0,
+      "arch": 0.002663735012754268,
+      "statsmodels": 0.002663735012754268,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -2.75,
+      "arch": 0.005804714331298982,
+      "statsmodels": 0.005804714331298982,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -2.5,
+      "arch": 0.012004037384041915,
+      "statsmodels": 0.012004037384041915,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -2.25,
+      "arch": 0.023508945930737636,
+      "statsmodels": 0.023508945930737636,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -2.0,
+      "arch": 0.04352062305604907,
+      "statsmodels": 0.04352062305604907,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -1.75,
+      "arch": 0.07603886131264281,
+      "statsmodels": 0.07603886131264281,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -1.5,
+      "arch": 0.1252400584846753,
+      "statsmodels": 0.1252400584846753,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -1.25,
+      "arch": 0.19432312378021083,
+      "statsmodels": 0.19432312378021083,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -1.0400000000000003,
+      "arch": 0.2683653510368317,
+      "statsmodels": 0.2683653510368317,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -1.04,
+      "arch": 0.26836535103683173,
+      "statsmodels": 0.26836535103683173,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -1.0399999999999998,
+      "arch": 0.2721947155028686,
+      "statsmodels": 0.2721947155028686,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -1.0,
+      "arch": 0.28810611212633064,
+      "statsmodels": 0.28810611212633064,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -0.75,
+      "arch": 0.3915441906001206,
+      "statsmodels": 0.3915441906001206,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -0.5,
+      "arch": 0.49612403751838097,
+      "statsmodels": 0.49612403751838097,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": -0.25,
+      "arch": 0.595190071097883,
+      "statsmodels": 0.595190071097883,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 0.0,
+      "arch": 0.6842796360469544,
+      "statsmodels": 0.6842796360469544,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 0.25,
+      "arch": 0.7610656903667925,
+      "statsmodels": 0.7610656903667925,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 0.5,
+      "arch": 0.824879195252956,
+      "statsmodels": 0.824879195252956,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 0.75,
+      "arch": 0.8761507996471889,
+      "statsmodels": 0.8761507996471889,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 1.0,
+      "arch": 0.9159517564141868,
+      "statsmodels": 0.9159517564141868,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 1.25,
+      "arch": 0.9456854095547516,
+      "statsmodels": 0.9456854095547516,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 1.5,
+      "arch": 0.9669079859187385,
+      "statsmodels": 0.9669079859187385,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 1.75,
+      "arch": 0.9812288035480388,
+      "statsmodels": 0.9812288035480388,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 2.0,
+      "arch": 0.990238941547687,
+      "statsmodels": 0.990238941547687,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 2.25,
+      "arch": 0.9954337059097758,
+      "statsmodels": 0.9954337059097758,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 2.5,
+      "arch": 0.9981213113479094,
+      "statsmodels": 0.9981213113479094,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 2.75,
+      "arch": 0.9993383715776131,
+      "statsmodels": 0.9993383715776131,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 3.0,
+      "arch": 0.9998068584192428,
+      "statsmodels": 0.9998068584192428,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 3.25,
+      "arch": 0.9999550085528641,
+      "statsmodels": 0.9999550085528641,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 3.5,
+      "arch": 0.9999920025787582,
+      "statsmodels": 0.9999920025787582,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 3.75,
+      "arch": 0.9999989706139254,
+      "statsmodels": 0.9999989706139254,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 4.0,
+      "arch": 0.9999999097447755,
+      "statsmodels": 0.9999999097447755,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 4.25,
+      "arch": 0.9999999949787727,
+      "statsmodels": 0.9999999949787727,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 4.5,
+      "arch": 0.9999999998367122,
+      "statsmodels": 0.9999999998367122,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 4.75,
+      "arch": 0.9999999999971759,
+      "statsmodels": 0.9999999999971759,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 5.0,
+      "arch": 0.9999999999999767,
+      "statsmodels": 0.9999999999999767,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 5.25,
+      "arch": 0.9999999999999999,
+      "statsmodels": 0.9999999999999999,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 5.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 5.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 6.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 6.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 6.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 6.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 7.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 7.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 7.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 7.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 8.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 8.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 8.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 8.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 9.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 9.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 9.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 9.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 10.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "n",
+      "statistic": 100.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "critical",
+      "spec": "n",
+      "nobs": 3,
+      "arch": [
+        -3.7140066666666662,
+        -1.2480148148148151,
+        -0.8904348148148149
+      ],
+      "statsmodels": [
+        -3.7140066666666662,
+        -1.2480148148148151,
+        -0.8904348148148149
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "n",
+      "nobs": 10,
+      "arch": [
+        -2.82559,
+        -1.9702870000000001,
+        -1.592036
+      ],
+      "statsmodels": [
+        -2.82559,
+        -1.9702870000000001,
+        -1.592036
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "n",
+      "nobs": 25,
+      "arch": [
+        -2.6609751999999998,
+        -1.955129728,
+        -1.6089151039999998
+      ],
+      "statsmodels": [
+        -2.6609751999999998,
+        -1.955129728,
+        -1.6089151039999998
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "n",
+      "nobs": 50,
+      "arch": [
+        -2.6119068,
+        -1.947468216,
+        -1.6123906879999998
+      ],
+      "statsmodels": [
+        -2.6119068,
+        -1.947468216,
+        -1.6123906879999998
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "n",
+      "nobs": 100,
+      "arch": [
+        -2.5884606999999997,
+        -1.943991277,
+        -1.614410036
+      ],
+      "statsmodels": [
+        -2.5884606999999997,
+        -1.943991277,
+        -1.614410036
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "n",
+      "nobs": 118,
+      "arch": [
+        -2.584947943119793,
+        -1.943498936965318,
+        -1.6147486304831555
+      ],
+      "statsmodels": [
+        -2.584947943119793,
+        -1.943498936965318,
+        -1.6147486304831555
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "n",
+      "nobs": 250,
+      "arch": [
+        -2.574741232,
+        -1.942126241728,
+        -1.615799400704
+      ],
+      "statsmodels": [
+        -2.574741232,
+        -1.942126241728,
+        -1.615799400704
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "n",
+      "nobs": 500,
+      "arch": [
+        -2.570226108,
+        -1.9415504102160002,
+        -1.616299453088
+      ],
+      "statsmodels": [
+        -2.570226108,
+        -1.9415504102160002,
+        -1.616299453088
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "n",
+      "nobs": 1000,
+      "arch": [
+        -2.567979427,
+        -1.9412719337770001,
+        -1.616557088636
+      ],
+      "statsmodels": [
+        -2.567979427,
+        -1.9412719337770001,
+        -1.616557088636
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "n",
+      "nobs": "infinity",
+      "arch": [
+        -2.56574,
+        -1.941,
+        -1.61682
+      ],
+      "statsmodels": [
+        -2.56574,
+        -1.941,
+        -1.61682
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -100.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -30.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -29.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -29.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -29.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -29.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -28.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -28.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -28.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -28.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -27.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -27.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -27.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -27.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -26.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -26.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -26.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -26.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -25.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -25.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -25.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -25.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -24.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -24.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -24.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -24.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -23.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -23.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -23.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -23.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -22.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -22.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -22.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -22.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -21.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -21.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -21.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -21.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -20.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -20.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -20.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -20.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -19.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -19.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -19.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -19.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -18.830000000000002,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -18.83,
+      "arch": 2.0221237233452862e-30,
+      "statsmodels": 2.0221237233452862e-30,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -18.829999999999995,
+      "arch": 2.0221237233452862e-30,
+      "statsmodels": 2.0221237233452862e-30,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -18.75,
+      "arch": 2.0278022411203023e-30,
+      "statsmodels": 2.0278022411203023e-30,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -18.5,
+      "arch": 2.1211986136266303e-30,
+      "statsmodels": 2.1211986136266303e-30,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -18.25,
+      "arch": 2.3441094075013644e-30,
+      "statsmodels": 2.3441094075013644e-30,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -18.0,
+      "arch": 2.736285338884294e-30,
+      "statsmodels": 2.736285338884294e-30,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -17.75,
+      "arch": 3.373249111909244e-30,
+      "statsmodels": 3.373249111909244e-30,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -17.5,
+      "arch": 4.39062094579613e-30,
+      "statsmodels": 4.39062094579613e-30,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -17.25,
+      "arch": 6.031861506584499e-30,
+      "statsmodels": 6.031861506584499e-30,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -17.0,
+      "arch": 8.742838778071754e-30,
+      "statsmodels": 8.742838778071754e-30,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -16.75,
+      "arch": 1.3363724055275324e-29,
+      "statsmodels": 1.3363724055275324e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -16.5,
+      "arch": 2.1530053513235752e-29,
+      "statsmodels": 2.1530053513235752e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -16.25,
+      "arch": 3.653796843486841e-29,
+      "statsmodels": 3.653796843486841e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -16.0,
+      "arch": 6.527319985785684e-29,
+      "statsmodels": 6.527319985785684e-29,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -15.75,
+      "arch": 1.226582120765201e-28,
+      "statsmodels": 1.226582120765201e-28,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -15.5,
+      "arch": 2.422590680779334e-28,
+      "statsmodels": 2.422590680779334e-28,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -15.25,
+      "arch": 5.0246531388479695e-28,
+      "statsmodels": 5.0246531388479695e-28,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -15.0,
+      "arch": 1.093367611823887e-27,
+      "statsmodels": 1.093367611823887e-27,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -14.75,
+      "arch": 2.4935744937567407e-27,
+      "statsmodels": 2.4935744937567407e-27,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -14.5,
+      "arch": 5.9539747987810765e-27,
+      "statsmodels": 5.9539747987810765e-27,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -14.25,
+      "arch": 1.4866994020510706e-26,
+      "statsmodels": 1.4866994020510706e-26,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -14.0,
+      "arch": 3.8774344736697815e-26,
+      "statsmodels": 3.8774344736697815e-26,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -13.75,
+      "arch": 1.0549092098631367e-25,
+      "statsmodels": 1.0549092098631367e-25,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -13.5,
+      "arch": 2.989852948668159e-25,
+      "statsmodels": 2.989852948668159e-25,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -13.25,
+      "arch": 8.815240496083772e-25,
+      "statsmodels": 8.815240496083772e-25,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -13.0,
+      "arch": 2.6997543032898884e-24,
+      "statsmodels": 2.6997543032898884e-24,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -12.75,
+      "arch": 8.575252787307196e-24,
+      "statsmodels": 8.575252787307196e-24,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -12.5,
+      "arch": 2.8203296253753154e-23,
+      "statsmodels": 2.8203296253753154e-23,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -12.25,
+      "arch": 9.588518353464327e-23,
+      "statsmodels": 9.588518353464327e-23,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -12.0,
+      "arch": 3.363885044220647e-22,
+      "statsmodels": 3.363885044220647e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -11.75,
+      "arch": 1.2155673557448846e-21,
+      "statsmodels": 1.2155673557448846e-21,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -11.5,
+      "arch": 4.515921365760043e-21,
+      "statsmodels": 4.515921365760043e-21,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -11.25,
+      "arch": 1.7214541251197877e-20,
+      "statsmodels": 1.7214541251197877e-20,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -11.0,
+      "arch": 6.719697132870192e-20,
+      "statsmodels": 6.719697132870192e-20,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -10.75,
+      "arch": 2.680425655319044e-19,
+      "statsmodels": 2.680425655319044e-19,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -10.5,
+      "arch": 1.090243871459148e-18,
+      "statsmodels": 1.090243871459148e-18,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -10.25,
+      "arch": 4.5117686584908e-18,
+      "statsmodels": 4.5117686584908e-18,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -10.0,
+      "arch": 1.8953190533444514e-17,
+      "statsmodels": 1.8953190533444514e-17,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -9.75,
+      "arch": 8.063265796447804e-17,
+      "statsmodels": 8.063265796447804e-17,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -9.5,
+      "arch": 3.4656563595762934e-16,
+      "statsmodels": 3.4656563595762934e-16,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -9.25,
+      "arch": 1.5011730321529067e-15,
+      "statsmodels": 1.5011730321529067e-15,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -9.0,
+      "arch": 6.536480457110331e-15,
+      "statsmodels": 6.536480457110331e-15,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -8.75,
+      "arch": 2.85361243839433e-14,
+      "statsmodels": 2.85361243839433e-14,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -8.5,
+      "arch": 1.2457377199068987e-13,
+      "statsmodels": 1.2457377199068987e-13,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -8.25,
+      "arch": 5.423191511329721e-13,
+      "statsmodels": 5.423191511329721e-13,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -8.0,
+      "arch": 2.34784700895023e-12,
+      "statsmodels": 2.34784700895023e-12,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -7.75,
+      "arch": 1.007941258312101e-11,
+      "statsmodels": 1.007941258312101e-11,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -7.5,
+      "arch": 4.2784857235752464e-11,
+      "statsmodels": 4.2784857235752464e-11,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -7.25,
+      "arch": 1.7903945670238016e-10,
+      "statsmodels": 1.7903945670238016e-10,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -7.0,
+      "arch": 7.363798725300587e-10,
+      "statsmodels": 7.363798725300587e-10,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -6.75,
+      "arch": 2.9676834566620987e-09,
+      "statsmodels": 2.9676834566620987e-09,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -6.5,
+      "arch": 1.1682674469280411e-08,
+      "statsmodels": 1.1682674469280411e-08,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -6.25,
+      "arch": 4.4781897108591054e-08,
+      "statsmodels": 4.4781897108591054e-08,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -6.0,
+      "arch": 1.666120483405439e-07,
+      "statsmodels": 1.666120483405439e-07,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -5.75,
+      "arch": 5.997166183573365e-07,
+      "statsmodels": 5.997166183573365e-07,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -5.5,
+      "arch": 2.0816136209632878e-06,
+      "statsmodels": 2.0816136209632878e-06,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -5.25,
+      "arch": 6.944435659318411e-06,
+      "statsmodels": 6.944435659318411e-06,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -5.0,
+      "arch": 2.2193154713956276e-05,
+      "statsmodels": 2.2193154713956276e-05,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -4.75,
+      "arch": 6.771861421017213e-05,
+      "statsmodels": 6.771861421017213e-05,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -4.5,
+      "arch": 0.00019663990033599052,
+      "statsmodels": 0.00019663990033599052,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -4.25,
+      "arch": 0.0005416165300693328,
+      "statsmodels": 0.0005416165300693328,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -4.0,
+      "arch": 0.0014105112530392605,
+      "statsmodels": 0.0014105112530392605,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -3.75,
+      "arch": 0.0034623685457473045,
+      "statsmodels": 0.0034623685457473045,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -3.5,
+      "arch": 0.007987094061496709,
+      "statsmodels": 0.007987094061496709,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -3.25,
+      "arch": 0.017266873422635137,
+      "statsmodels": 0.017266873422635137,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -3.0,
+      "arch": 0.034894400275345266,
+      "statsmodels": 0.034894400275345266,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -2.75,
+      "arch": 0.06577845522398347,
+      "statsmodels": 0.06577845522398347,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -2.5,
+      "arch": 0.11547432475870772,
+      "statsmodels": 0.11547432475870772,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -2.25,
+      "arch": 0.1886010662162263,
+      "statsmodels": 0.1886010662162263,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -2.0,
+      "arch": 0.28657309916843154,
+      "statsmodels": 0.28657309916843154,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -1.75,
+      "arch": 0.405552330965511,
+      "statsmodels": 0.405552330965511,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -1.6100000000000003,
+      "arch": 0.4779756525941893,
+      "statsmodels": 0.4779756525941893,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -1.61,
+      "arch": 0.4779756525941893,
+      "statsmodels": 0.4779756525941893,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -1.6099999999999999,
+      "arch": 0.4785684607372934,
+      "statsmodels": 0.4785684607372934,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -1.5,
+      "arch": 0.533511338910265,
+      "statsmodels": 0.533511338910265,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -1.25,
+      "arch": 0.6517259495233165,
+      "statsmodels": 0.6517259495233165,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -1.0,
+      "arch": 0.7532643012005655,
+      "statsmodels": 0.7532643012005655,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -0.75,
+      "arch": 0.8333700110698726,
+      "statsmodels": 0.8333700110698726,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -0.5,
+      "arch": 0.8920164965835715,
+      "statsmodels": 0.8920164965835715,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": -0.25,
+      "arch": 0.932293365029675,
+      "statsmodels": 0.932293365029675,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 0.0,
+      "arch": 0.958532086060056,
+      "statsmodels": 0.958532086060056,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 0.25,
+      "arch": 0.9749305678305673,
+      "statsmodels": 0.9749305678305673,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 0.5,
+      "arch": 0.9848730963065522,
+      "statsmodels": 0.9848730963065522,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 0.75,
+      "arch": 0.9907846642933141,
+      "statsmodels": 0.9907846642933141,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 1.0,
+      "arch": 0.9942659485477608,
+      "statsmodels": 0.9942659485477608,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 1.25,
+      "arch": 0.9963137683462229,
+      "statsmodels": 0.9963137683462229,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 1.5,
+      "arch": 0.99752427540539,
+      "statsmodels": 0.99752427540539,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 1.75,
+      "arch": 0.9982445194874576,
+      "statsmodels": 0.9982445194874576,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 2.0,
+      "arch": 0.9986729511999243,
+      "statsmodels": 0.9986729511999243,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 2.25,
+      "arch": 0.9989211870217388,
+      "statsmodels": 0.9989211870217388,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 2.5,
+      "arch": 0.9990498505342637,
+      "statsmodels": 0.9990498505342637,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 2.7399999999999998,
+      "arch": 0.9990880801041981,
+      "statsmodels": 0.9990880801041981,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 2.74,
+      "arch": 0.9990880801041981,
+      "statsmodels": 0.9990880801041981,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 2.7400000000000007,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 2.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 3.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 3.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 3.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 3.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 4.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 4.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 4.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 4.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 5.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 5.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 5.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 5.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 6.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 6.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 6.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 6.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 7.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 7.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 7.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 7.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 8.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 8.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 8.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 8.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 9.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 9.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 9.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 9.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 10.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "c",
+      "statistic": 100.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "critical",
+      "spec": "c",
+      "nobs": 3,
+      "arch": [
+        -10.41719074074074,
+        -5.77838074074074,
+        -3.391681111111111
+      ],
+      "statsmodels": [
+        -10.41719074074074,
+        -5.77838074074074,
+        -3.391681111111111
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "c",
+      "nobs": 10,
+      "arch": [
+        -4.331573,
+        -3.23295,
+        -2.7487
+      ],
+      "statsmodels": [
+        -4.331573,
+        -3.23295,
+        -2.7487
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "c",
+      "nobs": 25,
+      "arch": [
+        -3.7238633119999998,
+        -2.98648896,
+        -2.6328004
+      ],
+      "statsmodels": [
+        -3.7238633119999998,
+        -2.98648896,
+        -2.6328004
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "c",
+      "nobs": 50,
+      "arch": [
+        -3.568485864,
+        -2.92135992,
+        -2.5986616
+      ],
+      "statsmodels": [
+        -3.568485864,
+        -2.92135992,
+        -2.5986616
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "c",
+      "nobs": 100,
+      "arch": [
+        -3.497501033,
+        -2.89090644,
+        -2.5824349
+      ],
+      "statsmodels": [
+        -3.497501033,
+        -2.89090644,
+        -2.5824349
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "c",
+      "nobs": 118,
+      "arch": [
+        -3.4870216863700767,
+        -2.8863625166643136,
+        -2.580009026141913
+      ],
+      "statsmodels": [
+        -3.4870216863700767,
+        -2.8863625166643136,
+        -2.580009026141913
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "c",
+      "nobs": 250,
+      "arch": [
+        -3.456780859712,
+        -2.8731715065600003,
+        -2.572968544
+      ],
+      "statsmodels": [
+        -3.456780859712,
+        -2.8731715065600003,
+        -2.572968544
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "c",
+      "nobs": 500,
+      "arch": [
+        -3.443496379464,
+        -2.8673378563200003,
+        -2.569858036
+      ],
+      "statsmodels": [
+        -3.443496379464,
+        -2.8673378563200003,
+        -2.569858036
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "c",
+      "nobs": 1000,
+      "arch": [
+        -3.4369061654329998,
+        -2.86443457404,
+        -2.568311209
+      ],
+      "statsmodels": [
+        -3.4369061654329998,
+        -2.86443457404,
+        -2.568311209
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "c",
+      "nobs": "infinity",
+      "arch": [
+        -3.43035,
+        -2.86154,
+        -2.56677
+      ],
+      "statsmodels": [
+        -3.43035,
+        -2.86154,
+        -2.56677
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -100.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -30.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -29.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -29.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -29.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -29.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -28.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -28.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -28.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -28.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -27.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -27.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -27.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -27.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -26.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -26.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -26.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -26.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -25.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -25.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -25.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -25.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -24.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -24.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -24.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -24.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -23.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -23.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -23.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -23.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -22.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -22.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -22.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -22.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -21.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -21.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -21.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -21.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -20.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -20.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -20.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -20.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -19.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -19.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -19.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -19.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -18.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -18.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -18.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -18.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -17.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -17.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -17.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -17.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -16.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -16.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -16.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -16.180000000000003,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -16.18,
+      "arch": 1.1110557001304543e-22,
+      "statsmodels": 1.1110557001304543e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -16.179999999999996,
+      "arch": 1.111055700130494e-22,
+      "statsmodels": 1.111055700130494e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -16.0,
+      "arch": 1.1288086700722323e-22,
+      "statsmodels": 1.1288086700722323e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -15.75,
+      "arch": 1.2159813062469978e-22,
+      "statsmodels": 1.2159813062469978e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -15.5,
+      "arch": 1.391947388279274e-22,
+      "statsmodels": 1.391947388279274e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -15.25,
+      "arch": 1.6927702560016582e-22,
+      "statsmodels": 1.6927702560016582e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -15.0,
+      "arch": 2.1862149642540985e-22,
+      "statsmodels": 2.1862149642540985e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -14.75,
+      "arch": 2.997078917329481e-22,
+      "statsmodels": 2.997078917329481e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -14.5,
+      "arch": 4.358682849749151e-22,
+      "statsmodels": 4.358682849749151e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -14.25,
+      "arch": 6.719793512901664e-22,
+      "statsmodels": 6.719793512901664e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -14.0,
+      "arch": 1.0973431512821974e-21,
+      "statsmodels": 1.0973431512821974e-21,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -13.75,
+      "arch": 1.896302840316162e-21,
+      "statsmodels": 1.896302840316162e-21,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -13.5,
+      "arch": 3.46413687410919e-21,
+      "statsmodels": 3.46413687410919e-21,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -13.25,
+      "arch": 6.681877328015555e-21,
+      "statsmodels": 6.681877328015555e-21,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -13.0,
+      "arch": 1.359135296148348e-20,
+      "statsmodels": 1.359135296148348e-20,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -12.75,
+      "arch": 2.9112729883130056e-20,
+      "statsmodels": 2.9112729883130056e-20,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -12.5,
+      "arch": 6.557001065297555e-20,
+      "statsmodels": 6.557001065297555e-20,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -12.25,
+      "arch": 1.550338321917112e-19,
+      "statsmodels": 1.550338321917112e-19,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -12.0,
+      "arch": 3.8414420455206046e-19,
+      "statsmodels": 3.8414420455206046e-19,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -11.75,
+      "arch": 9.956512835474337e-19,
+      "statsmodels": 9.956512835474337e-19,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -11.5,
+      "arch": 2.6941079948654597e-18,
+      "statsmodels": 2.6941079948654597e-18,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -11.25,
+      "arch": 7.594832809006231e-18,
+      "statsmodels": 7.594832809006231e-18,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -11.0,
+      "arch": 2.2257112738364488e-17,
+      "statsmodels": 2.2257112738364488e-17,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -10.75,
+      "arch": 6.765035451780815e-17,
+      "statsmodels": 6.765035451780815e-17,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -10.5,
+      "arch": 2.127534950739207e-16,
+      "statsmodels": 2.127534950739207e-16,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -10.25,
+      "arch": 6.905499200358301e-16,
+      "statsmodels": 6.905499200358301e-16,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -10.0,
+      "arch": 2.3071902569978205e-15,
+      "statsmodels": 2.3071902569978205e-15,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -9.75,
+      "arch": 7.913196371265895e-15,
+      "statsmodels": 7.913196371265895e-15,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -9.5,
+      "arch": 2.7781982188463337e-14,
+      "statsmodels": 2.7781982188463337e-14,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -9.25,
+      "arch": 9.954796775531074e-14,
+      "statsmodels": 9.954796775531074e-14,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -9.0,
+      "arch": 3.6293387870471464e-13,
+      "statsmodels": 3.6293387870471464e-13,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -8.75,
+      "arch": 1.342053840117245e-12,
+      "statsmodels": 1.342053840117245e-12,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -8.5,
+      "arch": 5.016893046775509e-12,
+      "statsmodels": 5.016893046775509e-12,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -8.25,
+      "arch": 1.889520921411211e-11,
+      "statsmodels": 1.889520921411211e-11,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -8.0,
+      "arch": 7.145045262312306e-11,
+      "statsmodels": 7.145045262312306e-11,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -7.75,
+      "arch": 2.702930519715113e-10,
+      "statsmodels": 2.702930519715113e-10,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -7.5,
+      "arch": 1.019150364097789e-09,
+      "statsmodels": 1.019150364097789e-09,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -7.25,
+      "arch": 3.815660872136802e-09,
+      "statsmodels": 3.815660872136802e-09,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -7.0,
+      "arch": 1.4130032138460846e-08,
+      "statsmodels": 1.4130032138460846e-08,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -6.75,
+      "arch": 5.1550503549399526e-08,
+      "statsmodels": 5.1550503549399526e-08,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -6.5,
+      "arch": 1.8453396680265833e-07,
+      "statsmodels": 1.8453396680265833e-07,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -6.25,
+      "arch": 6.454697089066425e-07,
+      "statsmodels": 6.454697089066425e-07,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -6.0,
+      "arch": 2.1968599946249723e-06,
+      "statsmodels": 2.1968599946249723e-06,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -5.75,
+      "arch": 7.244340880654219e-06,
+      "statsmodels": 7.244340880654219e-06,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -5.5,
+      "arch": 2.3045464629924457e-05,
+      "statsmodels": 2.3045464629924457e-05,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -5.25,
+      "arch": 7.041506790168625e-05,
+      "statsmodels": 7.041506790168625e-05,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -5.0,
+      "arch": 0.0002057472826388253,
+      "statsmodels": 0.0002057472826388253,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -4.75,
+      "arch": 0.0005723841940466039,
+      "statsmodels": 0.0005723841940466039,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -4.5,
+      "arch": 0.001509518077754119,
+      "statsmodels": 0.001509518077754119,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -4.25,
+      "arch": 0.0037577845987922394,
+      "statsmodels": 0.0037577845987922394,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -4.0,
+      "arch": 0.008793701231094677,
+      "statsmodels": 0.008793701231094677,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -3.75,
+      "arch": 0.019268645060661248,
+      "statsmodels": 0.019268645060661248,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -3.5,
+      "arch": 0.03939102799324626,
+      "statsmodels": 0.03939102799324626,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -3.25,
+      "arch": 0.07489102326298636,
+      "statsmodels": 0.07489102326298636,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -3.0,
+      "arch": 0.1320809847799973,
+      "statsmodels": 0.1320809847799973,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -2.8900000000000006,
+      "arch": 0.16547078890013756,
+      "statsmodels": 0.16547078890013756,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -2.89,
+      "arch": 0.16547078890013756,
+      "statsmodels": 0.16547078890013756,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -2.8899999999999997,
+      "arch": 0.16585125463299305,
+      "statsmodels": 0.16585125463299305,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -2.75,
+      "arch": 0.2159138571956532,
+      "statsmodels": 0.2159138571956532,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -2.5,
+      "arch": 0.32796229628585105,
+      "statsmodels": 0.32796229628585105,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -2.25,
+      "arch": 0.4617786836003045,
+      "statsmodels": 0.4617786836003045,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -2.0,
+      "arch": 0.6014337722402741,
+      "statsmodels": 0.6014337722402741,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -1.75,
+      "arch": 0.7283540047521443,
+      "statsmodels": 0.7283540047521443,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -1.5,
+      "arch": 0.8291322873337499,
+      "statsmodels": 0.8291322873337499,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -1.25,
+      "arch": 0.8997461832455954,
+      "statsmodels": 0.8997461832455954,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -1.0,
+      "arch": 0.9441147109023218,
+      "statsmodels": 0.9441147109023218,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -0.75,
+      "arch": 0.9696466205767794,
+      "statsmodels": 0.9696466205767794,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -0.5,
+      "arch": 0.9834338169504677,
+      "statsmodels": 0.9834338169504677,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": -0.25,
+      "arch": 0.9905927081060584,
+      "statsmodels": 0.9905927081060584,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 0.0,
+      "arch": 0.9942331676947893,
+      "statsmodels": 0.9942331676947893,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 0.25,
+      "arch": 0.9960412814458395,
+      "statsmodels": 0.9960412814458395,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 0.5,
+      "arch": 0.996851911498776,
+      "statsmodels": 0.996851911498776,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 0.6999999999999998,
+      "arch": 0.997029461522338,
+      "statsmodels": 0.997029461522338,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 0.7,
+      "arch": 0.997029461522338,
+      "statsmodels": 0.997029461522338,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 0.7000000000000001,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 0.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 1.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 1.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 1.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 1.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 2.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 2.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 2.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 2.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 3.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 3.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 3.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 3.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 4.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 4.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 4.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 4.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 5.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 5.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 5.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 5.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 6.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 6.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 6.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 6.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 7.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 7.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 7.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 7.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 8.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 8.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 8.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 8.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 9.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 9.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 9.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 9.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 10.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ct",
+      "statistic": 100.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "critical",
+      "spec": "ct",
+      "nobs": 3,
+      "arch": [
+        -15.103840370370369,
+        -7.558475185185184,
+        -5.253916666666667
+      ],
+      "statsmodels": [
+        -15.103840370370369,
+        -7.558475185185184,
+        -5.253916666666667
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ct",
+      "nobs": 10,
+      "arch": [
+        -5.282515,
+        -3.985264,
+        -3.4472400000000003
+      ],
+      "statsmodels": [
+        -5.282515,
+        -3.985264,
+        -3.4472400000000003
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ct",
+      "nobs": 25,
+      "arch": [
+        -4.3749647199999995,
+        -3.6034675359999997,
+        -3.23818632
+      ],
+      "statsmodels": [
+        -4.3749647199999995,
+        -3.6034675359999997,
+        -3.23818632
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ct",
+      "nobs": 50,
+      "arch": [
+        -4.15227644,
+        -3.5022753919999996,
+        -3.1805110400000003
+      ],
+      "statsmodels": [
+        -4.15227644,
+        -3.5022753919999996,
+        -3.1805110400000003
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ct",
+      "nobs": 100,
+      "arch": [
+        -4.052277955,
+        -3.4553429739999997,
+        -3.1533208800000003
+      ],
+      "statsmodels": [
+        -4.052277955,
+        -3.4553429739999997,
+        -3.1533208800000003
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ct",
+      "nobs": 118,
+      "arch": [
+        -4.037614492012328,
+        -3.448373347128966,
+        -3.149257372954392
+      ],
+      "statsmodels": [
+        -4.037614492012328,
+        -3.448373347128966,
+        -3.149257372954392
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ct",
+      "nobs": 250,
+      "arch": [
+        -3.99544583392,
+        -3.428199079936,
+        -3.13745663232
+      ],
+      "statsmodels": [
+        -3.99544583392,
+        -3.428199079936,
+        -3.13745663232
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ct",
+      "nobs": 500,
+      "arch": [
+        -3.97699098524,
+        -3.4193073069919997,
+        -3.1322370790400003
+      ],
+      "statsmodels": [
+        -3.97699098524,
+        -3.4193073069919997,
+        -3.1322370790400003
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ct",
+      "nobs": 1000,
+      "arch": [
+        -3.9678516621549997,
+        -3.414889481374,
+        -3.12963954738
+      ],
+      "statsmodels": [
+        -3.9678516621549997,
+        -3.414889481374,
+        -3.12963954738
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ct",
+      "nobs": "infinity",
+      "arch": [
+        -3.95877,
+        -3.41049,
+        -3.12705
+      ],
+      "statsmodels": [
+        -3.95877,
+        -3.41049,
+        -3.12705
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -100.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -30.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -29.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -29.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -29.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -29.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -28.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -28.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -28.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -28.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -27.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -27.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -27.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -27.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -26.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -26.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -26.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -26.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -25.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -25.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -25.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -25.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -24.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -24.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -24.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -24.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -23.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -23.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -23.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -23.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -22.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -22.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -22.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -22.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -21.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -21.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -21.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -21.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -20.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -20.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -20.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -20.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -19.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -19.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -19.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -19.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -18.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -18.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -18.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -18.0,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -17.75,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -17.5,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -17.25,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -17.170000000000005,
+      "arch": 0.0,
+      "statsmodels": 0.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -17.17,
+      "arch": 7.13991704097559e-25,
+      "statsmodels": 7.13991704097559e-25,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -17.169999999999998,
+      "arch": 7.13991704097559e-25,
+      "statsmodels": 7.13991704097559e-25,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -17.0,
+      "arch": 7.240891500429142e-25,
+      "statsmodels": 7.240891500429142e-25,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -16.75,
+      "arch": 7.789116461775033e-25,
+      "statsmodels": 7.789116461775033e-25,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -16.5,
+      "arch": 8.91636819496872e-25,
+      "statsmodels": 8.91636819496872e-25,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -16.25,
+      "arch": 1.0858986634383424e-24,
+      "statsmodels": 1.0858986634383424e-24,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -16.0,
+      "arch": 1.4065104061915887e-24,
+      "statsmodels": 1.4065104061915887e-24,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -15.75,
+      "arch": 1.9366572403846207e-24,
+      "statsmodels": 1.9366572403846207e-24,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -15.5,
+      "arch": 2.8331889919749604e-24,
+      "statsmodels": 2.8331889919749604e-24,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -15.25,
+      "arch": 4.400693292156936e-24,
+      "statsmodels": 4.400693292156936e-24,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -15.0,
+      "arch": 7.251907464797325e-24,
+      "statsmodels": 7.251907464797325e-24,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -14.75,
+      "arch": 1.2667323528891123e-23,
+      "statsmodels": 1.2667323528891123e-23,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -14.5,
+      "arch": 2.3430839351116607e-23,
+      "statsmodels": 2.3430839351116607e-23,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -14.25,
+      "arch": 4.5844074283596085e-23,
+      "statsmodels": 4.5844074283596085e-23,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -14.0,
+      "arch": 9.476458470618548e-23,
+      "statsmodels": 9.476458470618548e-23,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -13.75,
+      "arch": 2.0668296394763374e-22,
+      "statsmodels": 2.0668296394763374e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -13.5,
+      "arch": 4.74941930450598e-22,
+      "statsmodels": 4.74941930450598e-22,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -13.25,
+      "arch": 1.1481225483015866e-21,
+      "statsmodels": 1.1481225483015866e-21,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -13.0,
+      "arch": 2.914981806808145e-21,
+      "statsmodels": 2.914981806808145e-21,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -12.75,
+      "arch": 7.75933723768703e-21,
+      "statsmodels": 7.75933723768703e-21,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -12.5,
+      "arch": 2.161470413144557e-20,
+      "statsmodels": 2.161470413144557e-20,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -12.25,
+      "arch": 6.288658910809142e-20,
+      "statsmodels": 6.288658910809142e-20,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -12.0,
+      "arch": 1.9070084191237358e-19,
+      "statsmodels": 1.9070084191237358e-19,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -11.75,
+      "arch": 6.014346018432019e-19,
+      "statsmodels": 6.014346018432019e-19,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -11.5,
+      "arch": 1.9682243699452592e-18,
+      "statsmodels": 1.9682243699452592e-18,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -11.25,
+      "arch": 6.667672227921365e-18,
+      "statsmodels": 6.667672227921365e-18,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -11.0,
+      "arch": 2.3324073183879163e-17,
+      "statsmodels": 2.3324073183879163e-17,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -10.75,
+      "arch": 8.403037828303761e-17,
+      "statsmodels": 8.403037828303761e-17,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -10.5,
+      "arch": 3.1095363132148543e-16,
+      "statsmodels": 3.1095363132148543e-16,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -10.25,
+      "arch": 1.178589413250462e-15,
+      "statsmodels": 1.178589413250462e-15,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -10.0,
+      "arch": 4.5621760957203304e-15,
+      "statsmodels": 4.5621760957203304e-15,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -9.75,
+      "arch": 1.798101813591087e-14,
+      "statsmodels": 1.798101813591087e-14,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -9.5,
+      "arch": 7.193409566714148e-14,
+      "statsmodels": 7.193409566714148e-14,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -9.25,
+      "arch": 2.911621605647686e-13,
+      "statsmodels": 2.911621605647686e-13,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -9.0,
+      "arch": 1.1884265273344538e-12,
+      "statsmodels": 1.1884265273344538e-12,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -8.75,
+      "arch": 4.874851737767007e-12,
+      "statsmodels": 4.874851737767007e-12,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -8.5,
+      "arch": 2.0025067242209605e-11,
+      "statsmodels": 2.0025067242209605e-11,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -8.25,
+      "arch": 8.208050798923747e-11,
+      "statsmodels": 8.208050798923747e-11,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -8.0,
+      "arch": 3.3446339999637483e-10,
+      "statsmodels": 3.3446339999637483e-10,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -7.75,
+      "arch": 1.3497359755707655e-09,
+      "statsmodels": 1.3497359755707655e-09,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -7.5,
+      "arch": 5.37342585030068e-09,
+      "statsmodels": 5.37342585030068e-09,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -7.25,
+      "arch": 2.1019841973004893e-08,
+      "statsmodels": 2.1019841973004893e-08,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -7.0,
+      "arch": 8.046774473213556e-08,
+      "statsmodels": 8.046774473213556e-08,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -6.75,
+      "arch": 3.002162153644603e-07,
+      "statsmodels": 3.002162153644603e-07,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -6.5,
+      "arch": 1.0870321322285649e-06,
+      "statsmodels": 1.0870321322285649e-06,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -6.25,
+      "arch": 3.803614391907651e-06,
+      "statsmodels": 3.803614391907651e-06,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -6.0,
+      "arch": 1.2806340167779076e-05,
+      "statsmodels": 1.2806340167779076e-05,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -5.75,
+      "arch": 4.130867237192511e-05,
+      "statsmodels": 4.130867237192511e-05,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -5.5,
+      "arch": 0.00012710147267822264,
+      "statsmodels": 0.00012710147267822264,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -5.25,
+      "arch": 0.0003714161672190635,
+      "statsmodels": 0.0003714161672190635,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -5.0,
+      "arch": 0.0010263486522916543,
+      "statsmodels": 0.0010263486522916543,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -4.75,
+      "arch": 0.002670597469638861,
+      "statsmodels": 0.002670597469638861,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -4.5,
+      "arch": 0.00651646861697489,
+      "statsmodels": 0.00651646861697489,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -4.25,
+      "arch": 0.014852642700974457,
+      "statsmodels": 0.014852642700974457,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -4.0,
+      "arch": 0.03150704952002652,
+      "statsmodels": 0.03150704952002652,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -3.75,
+      "arch": 0.06200597151859124,
+      "statsmodels": 0.06200597151859124,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -3.5,
+      "arch": 0.11291474575803784,
+      "statsmodels": 0.11291474575803784,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -3.25,
+      "arch": 0.18992899052280904,
+      "statsmodels": 0.18992899052280904,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -3.2100000000000004,
+      "arch": 0.204880123005991,
+      "statsmodels": 0.204880123005991,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -3.21,
+      "arch": 0.2048801230059913,
+      "statsmodels": 0.2048801230059913,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -3.2099999999999995,
+      "arch": 0.20538350241424375,
+      "statsmodels": 0.20538350241424375,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -3.0,
+      "arch": 0.295182559744655,
+      "statsmodels": 0.295182559744655,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -2.75,
+      "arch": 0.42604048441752507,
+      "statsmodels": 0.42604048441752507,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -2.5,
+      "arch": 0.5693607332536993,
+      "statsmodels": 0.5693607332536993,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -2.25,
+      "arch": 0.7053188891447497,
+      "statsmodels": 0.7053188891447497,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -2.0,
+      "arch": 0.8167402369138229,
+      "statsmodels": 0.8167402369138229,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -1.75,
+      "arch": 0.8959733684239244,
+      "statsmodels": 0.8959733684239244,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -1.5,
+      "arch": 0.9454187814369912,
+      "statsmodels": 0.9454187814369912,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -1.25,
+      "arch": 0.972981815818397,
+      "statsmodels": 0.972981815818397,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -1.0,
+      "arch": 0.9870296709815183,
+      "statsmodels": 0.9870296709815183,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -0.75,
+      "arch": 0.9937563608584207,
+      "statsmodels": 0.9937563608584207,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -0.5,
+      "arch": 0.9968703799975905,
+      "statsmodels": 0.9968703799975905,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": -0.25,
+      "arch": 0.9982996286547352,
+      "statsmodels": 0.9982996286547352,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 0.0,
+      "arch": 0.9989573259007248,
+      "statsmodels": 0.9989573259007248,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 0.25,
+      "arch": 0.9992502283373152,
+      "statsmodels": 0.9992502283373152,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 0.5,
+      "arch": 0.9993462594187176,
+      "statsmodels": 0.9993462594187176,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 0.5399999999999999,
+      "arch": 0.9993476927763013,
+      "statsmodels": 0.9993476927763013,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 0.54,
+      "arch": 0.9993476927763013,
+      "statsmodels": 0.9993476927763013,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 0.5400000000000001,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 0.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 1.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 1.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 1.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 1.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 2.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 2.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 2.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 2.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 3.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 3.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 3.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 3.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 4.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 4.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 4.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 4.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 5.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 5.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 5.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 5.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 6.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 6.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 6.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 6.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 7.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 7.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 7.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 7.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 8.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 8.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 8.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 8.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 9.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 9.25,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 9.5,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 9.75,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 10.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "pvalue",
+      "spec": "ctt",
+      "statistic": 100.0,
+      "arch": 1.0,
+      "statsmodels": 1.0,
+      "difference": 0.0
+    },
+    {
+      "kind": "critical",
+      "spec": "ctt",
+      "nobs": 3,
+      "arch": [
+        -24.585863333333332,
+        -11.569623333333332,
+        -7.715274814814814
+      ],
+      "statsmodels": [
+        -24.585863333333332,
+        -11.569623333333332,
+        -7.715274814814814
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ctt",
+      "nobs": 10,
+      "arch": [
+        -6.222187,
+        -4.666144,
+        -4.035709
+      ],
+      "statsmodels": [
+        -6.222187,
+        -4.666144,
+        -4.035709
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ctt",
+      "nobs": 25,
+      "arch": [
+        -4.913347408,
+        -4.0961721760000005,
+        -3.7121805759999997
+      ],
+      "statsmodels": [
+        -4.913347408,
+        -4.0961721760000005,
+        -3.7121805759999997
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ctt",
+      "nobs": 50,
+      "arch": [
+        -4.619893976,
+        -3.956446272,
+        -3.6290776719999998
+      ],
+      "statsmodels": [
+        -4.619893976,
+        -3.956446272,
+        -3.6290776719999998
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ctt",
+      "nobs": 100,
+      "arch": [
+        -4.490927947,
+        -3.8928142840000004,
+        -3.590448859
+      ],
+      "statsmodels": [
+        -4.490927947,
+        -3.8928142840000004,
+        -3.590448859
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ctt",
+      "nobs": 118,
+      "arch": [
+        -4.472110860871852,
+        -3.883407308731662,
+        -3.584692378310343
+      ],
+      "statsmodels": [
+        -4.472110860871852,
+        -3.883407308731662,
+        -3.584692378310343
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ctt",
+      "nobs": 250,
+      "arch": [
+        -4.418077283008,
+        -3.856220210176,
+        -3.5679871557759997
+      ],
+      "statsmodels": [
+        -4.418077283008,
+        -3.856220210176,
+        -3.5679871557759997
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ctt",
+      "nobs": 500,
+      "arch": [
+        -4.394452348376,
+        -3.844252306272,
+        -3.5606008804719997
+      ],
+      "statsmodels": [
+        -4.394452348376,
+        -3.844252306272,
+        -3.5606008804719997
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ctt",
+      "nobs": 1000,
+      "arch": [
+        -4.382754353047,
+        -3.838308308284,
+        -3.556924956559
+      ],
+      "statsmodels": [
+        -4.382754353047,
+        -3.838308308284,
+        -3.556924956559
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "critical",
+      "spec": "ctt",
+      "nobs": "infinity",
+      "arch": [
+        -4.37113,
+        -3.83239,
+        -3.55326
+      ],
+      "statsmodels": [
+        -4.37113,
+        -3.83239,
+        -3.55326
+      ],
+      "difference": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

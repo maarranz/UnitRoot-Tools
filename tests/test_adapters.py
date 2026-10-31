@@ -16,8 +16,8 @@ AUTO_CASES = [x for x in FIXED_CASES if x[-1]!="ctt"]
 SERIES=["rw","rw_negma","ar07","trend_ar08","hetero_rw","mic_boundary"]
 
 
-def check_inference(result, expected):
-    assert_allclose(result.statistic, expected.stat, rtol=0, atol=1e-12)
+def check_inference(result, expected, *, reference_stat=None):
+    assert_allclose(result.statistic, expected.stat if reference_stat is None else reference_stat, rtol=0, atol=1e-12)
     assert_allclose(result.pvalue, expected.pvalue, rtol=0, atol=1e-12)
     assert result.nobs==int(expected.nobs)
     assert dict(result.critical_values)=={.01:expected.critical_values["1%"],.05:expected.critical_values["5%"],.10:expected.critical_values["10%"]}
@@ -31,7 +31,15 @@ def check_inference(result, expected):
 def test_fixed_reference_evidence(stage2,name,f,cls,test,trend,p):
     y=stage2[0][name]
     result=f(y,trend=trend,lags=p)
-    check_inference(result,cls(y,trend=trend,lags=p))
+    # Only these four reviewed ctt cases use an independent accuracy oracle.
+    from pathlib import Path
+    import json
+    references = json.loads((Path(__file__).resolve().parents[1] /
+        'validation/scaled_svd/adf_ctt_references.json').read_text())['cases']
+    reference = next((row['reference_stat'] for row in references
+                      if test == 'ADF' and trend == 'ctt' and
+                      (row['series'], row['lags']) == (name, p)), None)
+    check_inference(result,cls(y,trend=trend,lags=p),reference_stat=reference)
     assert result.lags==p and result.lag_selection is None
     assert (result.input_nobs,result.nobs,result.sample_start,result.sample_stop)==(len(y),len(y)-1-p,p+1,len(y))
     # Read the saved release rows directly, including their calibration.
@@ -176,7 +184,11 @@ def test_reject_unreleased_or_different_backend_before_constructor(monkeypatch):
 def test_eager_backend_failure_and_exception_chain(monkeypatch,f):
     import arch.unitroot as public
     def fail(*args,**kwargs):raise RuntimeError('backend failed')
-    monkeypatch.setattr(public,'ADF' if f is adf else 'DFGLS',fail)
+    if f is adf:
+        import unitroot_tools._adapters as adapters
+        monkeypatch.setattr(adapters,'_adf_regression',fail)
+    else:
+        monkeypatch.setattr(public,'DFGLS',fail)
     with pytest.raises(EstimationError,match='ARCH estimation failed') as caught:
         f([1.,4.,2.,8.,3.],lags=0)
     assert isinstance(caught.value.__cause__,RuntimeError)
@@ -185,23 +197,29 @@ def test_eager_backend_failure_and_exception_chain(monkeypatch,f):
 def test_unexpected_programming_error_is_not_swallowed(monkeypatch):
     import arch.unitroot as public
     def fail(*args,**kwargs):raise KeyError('programming error')
-    monkeypatch.setattr(public,'ADF',fail)
+    import unitroot_tools._adapters as adapters
+    monkeypatch.setattr(adapters,'_adf_regression',fail)
     with pytest.raises(KeyError):adf([1.,4.,2.,8.,3.],lags=0)
 
 
 def test_nonfinite_inference_and_wrong_sample_rejected(monkeypatch):
-    import arch.unitroot as public
+    import unitroot_tools._adapters as adapters
     y=np.random.default_rng(7).normal(size=30)
-    real=ADF(y,lags=0)
-    def fake(**overrides):
-        values=dict(stat=real.stat,pvalue=real.pvalue,nobs=real.nobs,lags=0,
-                    critical_values=real.critical_values,regression=real.regression)
-        values.update(overrides)
-        return lambda *args,**kwargs:SimpleNamespace(**values)
-    for override in [dict(stat=float('nan')),dict(pvalue=1.2),dict(pvalue=-.1),
-                     dict(critical_values={'1%':float('inf'),'5%':-2.,'10%':-1.}),
-                     dict(nobs=28),dict(lags=1)]:
-        monkeypatch.setattr(public,'ADF',fake(**override))
+    real_fit=adapters._adf_regression
+    real_calibration=adapters._adf_calibration
+    for pvalue,critical in [(float('nan'),{.01:-3.,.05:-2.,.10:-1.}),
+                            (1.2,{.01:-3.,.05:-2.,.10:-1.}),
+                            (-.1,{.01:-3.,.05:-2.,.10:-1.}),
+                            (.5,{.01:float('inf'),.05:-2.,.10:-1.})]:
+        monkeypatch.setattr(adapters,'_adf_calibration',lambda *a,_p=pvalue,_c=critical:(_p,_c))
+        with pytest.raises(EstimationError):adf(y,lags=0)
+    monkeypatch.setattr(adapters,'_adf_calibration',real_calibration)
+    for stat,nobs in [(float('nan'),29),(0.,28)]:
+        reg=real_fit(y,'c',0,'test')
+        # A wrong sample must fail even if the actual model arrays are correct.
+        fake=SimpleNamespace(**{key:getattr(reg,key) for key in
+            ('model','resid','df_resid','ssr','scale')},nobs=nobs,tvalues=[stat])
+        monkeypatch.setattr(adapters,'_adf_regression',lambda *a,_r=fake:_r)
         with pytest.raises(EstimationError):adf(y,lags=0)
 
 
@@ -224,7 +242,7 @@ def test_regression_guard_rejects_invalid_backend_state(monkeypatch):
     real=ADF(y,lags=0)
     reg=real.regression
     valid=dict(model=SimpleNamespace(exog=reg.model.exog,endog=reg.model.endog),
-               resid=reg.resid,df_resid=reg.df_resid,ssr=reg.ssr,scale=reg.scale,nobs=reg.nobs)
+               resid=reg.resid,df_resid=reg.df_resid,ssr=reg.ssr,scale=reg.scale,nobs=reg.nobs,tvalues=reg.tvalues)
     bad_states=[
         dict(model=SimpleNamespace(exog=np.ones((2,2)),endog=reg.model.endog)),
         dict(df_resid=0),
@@ -237,9 +255,8 @@ def test_regression_guard_rejects_invalid_backend_state(monkeypatch):
     ]
     for overrides in bad_states:
         fake_reg=SimpleNamespace(**(valid|overrides))
-        backend=SimpleNamespace(stat=real.stat,pvalue=real.pvalue,nobs=real.nobs,lags=0,
-                                critical_values=real.critical_values,regression=fake_reg)
-        monkeypatch.setattr(public,'ADF',lambda *args,_b=backend,**kwargs:_b)
+        import unitroot_tools._adapters as adapters
+        monkeypatch.setattr(adapters,'_adf_regression',lambda *args,_r=fake_reg,**kwargs:_r)
         with pytest.raises(EstimationError):adf(y,lags=0)
 
 
@@ -247,7 +264,8 @@ def test_runtime_warning_is_not_hidden(monkeypatch):
     import warnings
     import arch.unitroot as public
     def fail(*args,**kwargs):warnings.warn('invalid variance',RuntimeWarning)
-    monkeypatch.setattr(public,'ADF',fail)
+    import unitroot_tools._adapters as adapters
+    monkeypatch.setattr(adapters,'_adf_regression',fail)
     with pytest.raises(EstimationError) as caught:adf([1.,4.,2.,8.,3.],lags=0)
     assert isinstance(caught.value.__cause__,RuntimeWarning)
 

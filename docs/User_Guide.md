@@ -1,8 +1,11 @@
 # UnitRoot-Tools user guide
 
 UnitRoot-Tools provides `adf`, `dfgls`, `pp`, `kpss` and `select_lags` for
-teaching applied time-series econometrics. It uses released **ARCH 8.0.0** for
-final test statistics and inference for those four tests. The separate `enders`
+teaching applied time-series econometrics. ADF regression estimation uses UnitRoot-Tools' integrated **column-scaled SVD**
+OLS implementation. Its p-values and critical values are evaluated by the public
+Statsmodels MacKinnon calibration functions, using the ARCH 8.0.0-compatible ADF
+conventions. DFGLS, PP and KPSS continue to use released **ARCH 8.0.0**; their
+estimation and calibration were not changed by the scaled-SVD integration. The separate `enders`
 function provides sequential deterministic-specification decisions; it does
 not decide automatically whether economic differencing is appropriate.
 
@@ -213,13 +216,17 @@ print(result.trend, result.reject_unit_root, result.terminal_test)
 
 See [Enders procedures](Enders.md) for the complete API, original versus
 conservative rules, finite-table conventions and conditional-inference caveats.
+Unrestricted Enders regressions reuse the integrated ADF estimator. Restricted
+and auxiliary regressions use the same stable column-scaled SVD fitting layer;
+the hypotheses, critical values and decision trees are unchanged.
 The conservative variant is a proposed modification; its default preserves
 the constant and the nonstandard tau2 decision.
 
 ## Experimental deterministic AIC/BIC comparison
 
 Use `select_deterministic(y, lags=p, criterion="bic")` to compare n/c/ct at a
-supplied integer p; BIC is the default and AIC is optional. Every candidate uses
+supplied integer p; BIC is the default and AIC is optional. The candidates reuse
+the integrated scaled-SVD ADF fits without a separate raw-OLS refit. Every candidate uses
 the same original-data response sample N−1−p. The total likelihood scores count
 all regression coefficients and the innovation variance. Both scores, the
 selected specification, sample boundaries and runner-up gap are retained.

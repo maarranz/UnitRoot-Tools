@@ -1,4 +1,4 @@
-"""Public fixed-lag ARCH adapters; own selection always precedes estimation."""
+"""Fixed-lag adapters with ARCH calibration; own selection precedes estimation."""
 from __future__ import annotations
 
 from dataclasses import replace
@@ -14,6 +14,7 @@ from ._version import __version__
 from .errors import EstimationError, SpecificationWarning
 from .results import LagSelectionResult, UnitRootResult
 from .selection import _fit, select_lags
+from ._regression import scaled_ols
 
 _EPS = np.finfo(np.float64).eps
 _NUMERICAL = (ValueError, RuntimeError, linalg.LinAlgError, FloatingPointError,
@@ -96,6 +97,33 @@ def _check_regression(regression, nobs: int, columns: int, context: str) -> tupl
     return ()
 
 
+def _adf_regression(data, trend, p, context):
+    """The released ADF difference design, fitted without raw-column imbalance."""
+    from pandas import DataFrame
+
+    delta = np.diff(data)
+    n = len(delta) - p
+    columns = [data[p:-1]] + [delta[p-j:len(delta)-j] for j in range(1, p+1)]
+    names = ["Level.L1"] + [f"Diff.L{j}" for j in range(1, p+1)]
+    if trend != "n":
+        columns.append(np.ones(n)); names.append("const")
+    if trend in ("ct", "ctt"):
+        columns.append(np.arange(1, n+1, dtype=float)); names.append("trend")
+    if trend == "ctt":
+        columns.append(np.arange(1, n+1, dtype=float)**2); names.append("quadratic_trend")
+    return scaled_ols(delta[p:], DataFrame(np.column_stack(columns), columns=names), context)
+
+
+def _adf_calibration(stat, trend, nobs):
+    """Public MacKinnon surfaces matching the released ARCH ADF conventions."""
+    from statsmodels.tsa.adfvalues import mackinnoncrit, mackinnonp
+
+    pvalue = float(mackinnonp(stat, regression=trend, N=1))
+    values = mackinnoncrit(N=1, regression=trend, nobs=nobs)
+    critical = {alpha: float(value) for alpha, value in zip((.01, .05, .10), values)}
+    return pvalue, critical
+
+
 def _estimate(y, *, test, trend, lags, max_lags, method) -> UnitRootResult:
     trend = label(trend, "trend", ("n", "c", "ct", "ctt") if test == "ADF" else ("c", "ct"))
     p = optional_order(lags, "lags")
@@ -121,19 +149,25 @@ def _estimate(y, *, test, trend, lags, max_lags, method) -> UnitRootResult:
     classes, backend_version = _backend()
     context += f" p={p}"
     expected_nobs = N-1-p
-    # The original validated levels go to ARCH. No GLS or OLS selection residual
-    # is substituted, and lags is always an integer, including zero.
+    # Both paths use original validated levels and an explicit integer lag.
+    # ADF fits one stable regression; DFGLS retains ARCH's single GLS transform.
     from statsmodels.tools.sm_exceptions import SingularMatrixWarning
     try:
         with warnings.catch_warnings(), np.errstate(over="raise", divide="raise", invalid="raise"):
             warnings.simplefilter("error", RuntimeWarning)
             warnings.simplefilter("error", SingularMatrixWarning)
-            backend = classes[test](data, lags=p, trend=trend)
-            stat, pvalue = float(backend.stat), float(backend.pvalue)
-            nobs, used_lags = backend.nobs, backend.lags
-            critical = {alpha: float(backend.critical_values[key]) for alpha, key in
-                        ((.01, "1%"), (.05, "5%"), (.10, "10%"))}
-            regression = backend.regression
+            if test == "ADF":
+                regression = _adf_regression(data, trend, p, context)
+                stat = float(np.asarray(regression.tvalues)[0])
+                nobs, used_lags = regression.nobs, p
+                pvalue, critical = _adf_calibration(stat, trend, nobs)
+            else:
+                backend = classes[test](data, lags=p, trend=trend)
+                stat, pvalue = float(backend.stat), float(backend.pvalue)
+                nobs, used_lags = backend.nobs, backend.lags
+                critical = {alpha: float(backend.critical_values[key]) for alpha, key in
+                            ((.01, "1%"), (.05, "5%"), (.10, "10%"))}
+                regression = backend.regression
             regression_notes = _check_regression(regression, expected_nobs, 1+p+(d if test == "ADF" else 0), context)
     except EstimationError:
         raise
@@ -150,9 +184,9 @@ def _estimate(y, *, test, trend, lags, max_lags, method) -> UnitRootResult:
         notes += (f"Approximate p-value is at the {boundary.replace('_', ' ')}; not an exact tail probability.",)
     if test == "ADF":
         calibration = "ARCH 8.0.0 ADF-t calibration"
-        p_provenance = "MacKinnon asymptotic p-value response-surface approximation"
-        cv_provenance = "ARCH 8.0.0 sample-size ADF-t critical-value surfaces; historical no-constant exception"
-        description = "OLS ADF difference regression on original levels with requested deterministic terms"
+        p_provenance = "MacKinnon asymptotic p-value response-surface approximation evaluated by public Statsmodels"
+        cv_provenance = "ARCH 8.0.0 sample-size ADF-t critical-value surfaces; historical no-constant exception; evaluated by public Statsmodels"
+        description = "UnitRoot-Tools column-scaled SVD OLS ADF difference regression on original levels with requested deterministic terms; backend label identifies ARCH-compatible calibration"
     else:
         calibration = "ARCH 8.0.0 dedicated DFGLS calibration"
         p_provenance = "ARCH 8.0.0 dedicated DFGLS simulation p-value response surfaces"
@@ -177,12 +211,14 @@ def adf(
     y: ArrayLike, *, trend: str = "c", lags: int | None = None,
     max_lags: int | None = None, method: str | None = None
 ) -> UnitRootResult:
-    """ADF via released ARCH 8.0.0, at a fixed or independently selected lag.
+    """Stable OLS ADF with released ARCH 8.0.0 calibration conventions.
 
     Fixed lags (including zero) prohibit method/max_lags. Otherwise default MAIC
     or explicit MBIC/AIC/BIC uses the approved common-sample OLS selector.
-    Trends n/c/ct are supported; ctt requires fixed lags. Final inference is
-    ARCH's, with strict left-tail critical-value decisions at 1%, 5% and 10%.
+    Trends n/c/ct are supported; ctt requires fixed lags. Public Statsmodels
+    MacKinnon evaluators calibrate the stable statistic using ARCH-compatible
+    surfaces. The backend label identifies these calibration conventions, not
+    raw ARCH fitting. Decisions use strict left-tail critical values.
     """
     return _estimate(y, test="ADF", trend=trend, lags=lags, max_lags=max_lags, method=method)
 

@@ -28,8 +28,11 @@ proves neither stationarity nor a unit root. These tests do not automatically
 select a model or determine whether to difference a series.
 
 
-Stage 3C provides independent lag selection and public `adf()`, `dfgls()`,
-`pp()` and `kpss()` functions backed by **released ARCH 8.0.0**.
+ADF estimation uses column-scaled SVD OLS with public Statsmodels MacKinnon
+calibration, retaining ARCH 8.0.0-compatible ADF conventions. DFGLS, PP and KPSS
+continue to use released **ARCH 8.0.0**. Enders restricted/auxiliary fits use the
+stable fitting layer, and deterministic AIC/BIC selection reuses integrated ADF
+fits; its post-selection inference remains unadjusted.
 
 ```python
 import numpy as np
@@ -66,7 +69,7 @@ Automatic maximum orders may be capped for final-regression feasibility;
 this emits a warning and records the effective maximum in the result.
 The selection sample and final regression sample are reported separately.
 
-The backend receives original validated levels and an explicit integer lag.
+The final estimators use original validated levels and an explicit integer lag.
 DF-GLS performs its GLS detrending exactly once inside ARCH. Its returned
 regression uses GLS-detrended data, while the selection regressions use
 OLS-detrended data. The exposed regression is a mutable backend object;
@@ -89,7 +92,7 @@ Python 3.11+ is the declared range; see the [Stage 4 matrix](docs/Stage4_Release
 for environments actually tested. Compatibility is not inferred from metadata.
 
 The selector remains independent NumPy/SciPy code. Adapters use public ARCH
-APIs only, check the active version, and need no R or development snapshot.
+and Statsmodels calibration APIs, check the active version, and need no R or development snapshot.
 See the [governing specification](docs/Implementation_Specification.md).
 
 PP supports `trend="n"`, `"c"`, `"ct"` and `test_type="tau"` (default) or

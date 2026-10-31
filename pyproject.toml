@@ -40,6 +40,7 @@ show_missing = true
 [tool.setuptools.data-files]
 "share/doc/unitroot-tools" = ["README.md"]
 "share/doc/unitroot-tools/docs" = ["docs/*.md"]
+"share/doc/unitroot-tools/docs/archive" = ["docs/archive/*.md"]
 "share/doc/unitroot-tools/examples" = [
     "examples/adf_dfgls.py",
     "examples/pp_kpss.py",
