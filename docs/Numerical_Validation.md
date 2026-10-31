@@ -225,3 +225,54 @@ Two preservation/interpretation points apply to this historical run:
 - The research input readers filter blank/NA entries. Only trailing padding exists in the saved short series, independently verified; no interior gaps were dropped in this run. Future readers must reject interior gaps. Normal runtime input validation must never inherit this filtering behavior.
 
 No numerical formula correction is required for this evidence. Original scripts, raw results and their manifest are preserved unchanged. The final production decision is **released ARCH 8.0.0 plus an independent PQ OLS MAIC/MBIC selector**; the development snapshot remains historical comparison evidence only. Automatic defaults, numerical/error boundaries, and minimum-version/platform support still require implementation acceptance tests.
+
+
+## Frozen ADF calibration portability policy — 31 October 2026
+
+Frozen cross-platform p-values test numerical reproducibility, rather than
+bitwise identity of transcendental-function evaluations across numerical-library
+builds. Only the frozen p-value comparison in `test_adf_scaled_integration.py`
+uses this policy. The original calibration fixture remains unchanged.
+
+For a positive interior reference p, require relative error no larger than
+`2*b/(1-b)`, where `b = 128 * binary64 epsilon` (approximately 5.685e-14 for
+the comparison). This follows if two evaluations of the same calibrated value
+each meet the per-evaluation relative accuracy target b: their difference is
+at most 2*b times the underlying value, and the stored value is at least
+(1-b) times that value. This is a reviewed finite accuracy budget, not a
+universal forward-error theorem for every polynomial/CDF or mathematical library.
+An external, independent Gaussian-CDF power-series calculation at 80 and 120
+decimal digits checks all 348 interior frozen cases. Its rounded binary64
+oracles agree between precisions; maximum relative differences from the oracle
+are 1.784e-14 for the Mac evaluations and 1.801e-14 for the saved Colab
+evaluations. These are below b (2.843e-14). Colab polynomial arguments were
+not saved, so the latter comparison includes any upstream polynomial-rounding
+difference. The oracle checks evaluation accuracy at the Mac-computed rounded
+response-surface argument, not the statistical accuracy of MacKinnon's fitted
+surfaces. Future platforms must still satisfy the same bound.
+
+There is **no absolute tolerance floor**. The error is divided by the positive
+reference, preserving a meaningful relative requirement for tiny tails (the
+smallest positive frozen p-value is about 2.022e-30). Positive subnormal values
+also receive no blanket absolute allowance; if even one representable step
+exceeds the relative budget it fails. Exact 0/1 endpoints, finite probability
+range and classifications at 1%, 5% and 10% are checked separately. A crossing
+fails even if its numerical difference meets the relative bound. P-value
+classification checks do not replace the package's critical-value rejection
+rules or their exact-boundary tests.
+
+Current-runtime comparisons with ARCH and public Statsmodels remain exact.
+Their shared calibration surfaces/formulas make those compatibility checks,
+not independent mathematical verification. Frozen critical values, structural
+identities, deterministic replay, high-precision ADF regression references and
+all existing statistic/Enders/AIC/BIC accuracy requirements are unchanged.
+ULP differences are useful diagnostics, not the sole acceptance criterion.
+
+Numerical accuracy and statistical decision agreement are distinct obligations:
+agreement in decisions cannot excuse a numerical error outside the justified
+budget. Bitwise equality remains appropriate for genuine exact identities.
+Future R/Julia implementations should independently reproduce the econometric
+specification and be checked against suitable high-precision references, rather
+than imitating Python's floating-point arithmetic. The historical Colab failure
+remains a failure under its original tests; this policy does not retroactively
+qualify that run or authorize a new platform run.
