@@ -21,3 +21,9 @@ See `stage4/Reproduce.md` for installed-package testing without source-path
 shadowing, and `Platform_Validation.ipynb` / the manually triggered workflow
 for pending Colab/Linux validation. Preparing or committing those files does
 not establish a platform pass. No tolerance is relaxed on a new platform.
+
+Relocated frozen pilot summaries are in `experiment_a/pilot-summary/`; the
+original external pilot remains unchanged. Historical hosted evidence and its
+checksums are in [evidence/README.md](evidence/README.md). These older-source
+records do not constitute current-code Linux/Colab qualification. See the
+[current documentation index](../docs/README.md) for scope and historical reports.

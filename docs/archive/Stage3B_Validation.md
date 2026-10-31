@@ -41,7 +41,7 @@ Tests exercise:
 
 ## Numerical comparisons
 
-[stage3b_comparisons.csv](../validation/stage3b_comparisons.csv) contains **312** recorded wrapper/reference cases: 72 fixed and 240 automatic. [stage3b_numerics.json](../validation/stage3b_numerics.json) records the measured maxima, versions, coverage and source/preservation hashes.
+[stage3b_comparisons.csv](../../validation/stage3b_comparisons.csv) contains **312** recorded wrapper/reference cases: 72 fixed and 240 automatic. [stage3b_numerics.json](../../validation/stage3b_numerics.json) records the measured maxima, versions, coverage and source/preservation hashes.
 
 | Quantity | Cases | Maximum absolute difference |
 |---|---:|---:|
@@ -63,7 +63,7 @@ All Stage 3A cases continue to pass; the sole existing test adaptation is the ex
 
 ## Examples, packaging and reproduction
 
-The updated [README](../README.md) has short complete examples. [examples/adf_dfgls.py](../examples/adf_dfgls.py) was executed successfully, displaying fixed ADF, automatic MAIC DF-GLS and automatic BIC ADF summaries, all three nominal rejection decisions, and public regression coefficients.
+The updated [README](../../README.md) has short complete examples. [examples/adf_dfgls.py](../../examples/adf_dfgls.py) was executed successfully, displaying fixed ADF, automatic MAIC DF-GLS and automatic BIC ADF summaries, all three nominal rejection decisions, and public regression coefficients.
 
 A regular wheel built successfully and its packaged exports were smoke-tested from the wheel itself. Build intermediates remain in the scratch workspace/ignored directories. No dependency update, package publication or upstream source modification was performed.
 
@@ -76,7 +76,7 @@ python -m pytest -q -p no:cacheprovider \
 python examples/adf_dfgls.py
 ```
 
-The numerical CSV repeats the fixed/automatic grids covered by `tests/test_adapters.py`; it is a review artifact, not an additional inference implementation. Machine-readable test results are in [stage3b_pytest.xml](../validation/stage3b_pytest.xml) and coverage in [stage3b_coverage.json](../validation/stage3b_coverage.json).
+The numerical CSV repeats the fixed/automatic grids covered by `tests/test_adapters.py`; it is a review artifact, not an additional inference implementation. Machine-readable test results are in [stage3b_pytest.xml](../../validation/stage3b_pytest.xml) and coverage in [stage3b_coverage.json](../../validation/stage3b_coverage.json).
 
 ## Tested environment and unresolved limits
 

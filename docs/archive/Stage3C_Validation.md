@@ -65,11 +65,11 @@ against all numerical problems.
 
 Machine-readable artifacts:
 
-- [Test results](../validation/stage3c_pytest.xml).
-- [Coverage](../validation/stage3c_coverage.json).
-- [Numerical rows](../validation/stage3c_comparisons.csv) and
-  [numerical metadata/group maxima](../validation/stage3c_numerics.json).
-- [Preservation check](../validation/stage3c_preservation.json).
+- [Test results](../../validation/stage3c_pytest.xml).
+- [Coverage](../../validation/stage3c_coverage.json).
+- [Numerical rows](../../validation/stage3c_comparisons.csv) and
+  [numerical metadata/group maxima](../../validation/stage3c_numerics.json).
+- [Preservation check](../../validation/stage3c_preservation.json).
 
 Tests cover all supported specifications/types; fixed bandwidths 0, 4 and 12;
 automatic rules; largest feasible fixed bandwidth and the next invalid value;
@@ -109,7 +109,7 @@ for tau and **1.297161193184138** for rho. These reflect the already audited
 finite-sample formula conventions, including regression variance/degrees of
 freedom, rather than mismatched input vectors or a tolerance failure. Stage 2's
 independent package-specific reconstructions and formula explanations remain in
-[the numerical study](Numerical_Validation.md) and
+[the numerical study](../Numerical_Validation.md) and
 [the implementation specification](Implementation_Specification.md).
 No R formula is substituted for ARCH's statistic or calibration.
 

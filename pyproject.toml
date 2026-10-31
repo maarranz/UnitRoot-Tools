@@ -41,6 +41,8 @@ show_missing = true
 "share/doc/unitroot-tools" = ["README.md"]
 "share/doc/unitroot-tools/docs" = ["docs/*.md"]
 "share/doc/unitroot-tools/docs/archive" = ["docs/archive/*.md"]
+"share/doc/unitroot-tools/validation/experiment_a/pilot-summary" = ["validation/experiment_a/pilot-summary/*.gz", "validation/experiment_a/pilot-summary/*.json", "validation/experiment_a/pilot-summary/README.md"]
+"share/doc/unitroot-tools/validation/evidence" = ["validation/evidence/*.zip", "validation/evidence/README.md"]
 "share/doc/unitroot-tools/examples" = [
     "examples/adf_dfgls.py",
     "examples/pp_kpss.py",
@@ -48,6 +50,16 @@ show_missing = true
 ]
 
 "share/doc/unitroot-tools/validation" = [
+    "validation/README.md", "validation/*.py", "validation/*.R",
+    "validation/*.csv", "validation/*.json", "validation/*.xml",
     "validation/Platform_Validation.ipynb",
-    "validation/run_platform_validation.py",
 ]
+"share/doc/unitroot-tools/validation/results" = ["validation/results/*.csv", "validation/results/*.json"]
+"share/doc/unitroot-tools/validation/enders" = ["validation/enders/*.py", "validation/enders/*.csv", "validation/enders/*.json"]
+"share/doc/unitroot-tools/validation/scaled_svd" = ["validation/scaled_svd/*.py", "validation/scaled_svd/*.json"]
+"share/doc/unitroot-tools/research" = ["research/__init__.py"]
+"share/doc/unitroot-tools/research/experiment_a" = ["research/experiment_a/*.py", "research/experiment_a/*.md"]
+"share/doc/unitroot-tools/research/experiment_a/tests" = ["research/experiment_a/tests/*.py"]
+
+# Source snapshots keep the research protocol's relative code links usable.
+"share/doc/unitroot-tools/src/unitroot_tools" = ["src/unitroot_tools/*.py"]

@@ -6,7 +6,7 @@
 
 This document preserves the methodological contract approved before implementation.
 Prospective instructions and validation plans below describe that design stage;
-see [the current implementation, API and interpretation](Deterministic_Selection.md).
+see [the current implementation, API and interpretation](../Deterministic_Selection.md).
 
 ## 1. Recommended scope
 

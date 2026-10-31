@@ -22,7 +22,7 @@ by this preservation operation. No main experiment has been launched.
 
 ## Experiment A: approved and completed scope
 
-The governing design is [Monte_Carlo_Research_Protocol.md](Monte_Carlo_Research_Protocol.md),
+The governing design is [Monte_Carlo_Research_Protocol.md](../Monte_Carlo_Research_Protocol.md),
 with **only its 100-cell A core** implemented and piloted:
 
 - Gaussian AR(1) DGPs; zero-start initialization; no burn-in; innovation SD 1.
@@ -44,8 +44,8 @@ or additional trend experiment has been implemented or run.
 
 ## Validation and principal empirical findings
 
-See [Experiment_A_Validation_Report.md](Experiment_A_Validation_Report.md) and
-[Experiment_A_Pilot_Summary.md](Experiment_A_Pilot_Summary.md).
+See [Experiment_A_Validation_Report.md](../Experiment_A_Validation_Report.md) and
+[Experiment_A_Pilot_Summary.md](../Experiment_A_Pilot_Summary.md).
 
 - Existing package suite: **1,367 passing tests**; research suite: **22 passing**.
 - Independent QR/decision reconstruction agreed within about **1.2e−13** against
@@ -73,7 +73,7 @@ replications or interpret retained ct/c as proof of true deterministic terms.
 ## Files preserved in Git and how to use them
 
 Research implementation, tests and usage instructions are under
-[`research/experiment_a`](../research/experiment_a/README.md), outside the installed
+[`research/experiment_a`](../../research/experiment_a/README.md), outside the installed
 public package. It calls unchanged public methods without substituting a cached
 regression engine. The current runner deliberately rejects `main` phase and
 replication counts above 200; pilot requires exactly 200. Do not bypass these

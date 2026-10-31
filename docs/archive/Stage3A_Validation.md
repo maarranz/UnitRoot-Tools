@@ -35,7 +35,7 @@ Tests cover:
 
 ## Numerical differences
 
-The companion [stage3a_numerics.json](../validation/stage3a_numerics.json) records versions, coverage, source/test hashes and measured maxima. Historical Stage 2 CSVs, scripts and manifest remain unchanged; their recorded hashes were rechecked.
+The companion [stage3a_numerics.json](../../validation/stage3a_numerics.json) records versions, coverage, source/test hashes and measured maxima. Historical Stage 2 CSVs, scripts and manifest remain unchanged; their recorded hashes were rechecked.
 
 Comparison against all **324** saved `PQ_full` candidate rows:
 
@@ -72,7 +72,7 @@ python -m pytest --cov=unitroot_tools --cov-branch \
 python -m build --wheel --outdir /tmp/unitroot-stage3a-wheel
 ```
 
-The last command additionally requires the `build` developer tool. Editable installation/build tools were installed only in the external scratch environment, not a repository virtual environment. Saved [coverage JSON](../validation/stage3a_coverage.json) and [pytest XML](../validation/stage3a_pytest.xml) provide machine-readable evidence.
+The last command additionally requires the `build` developer tool. Editable installation/build tools were installed only in the external scratch environment, not a repository virtual environment. Saved [coverage JSON](../../validation/stage3a_coverage.json) and [pytest XML](../../validation/stage3a_pytest.xml) provide machine-readable evidence.
 
 ## Support and methodological limits
 

@@ -1,5 +1,8 @@
 # UnitRoot-Tools
 
+See the [documentation index](docs/README.md) for current methods, numerical
+validation and clearly labelled historical/platform evidence.
+
 A small teaching API for four unit-root/stationarity tests and transparent
 lag selection, plus auditable Original and Conservative Enders specification
 procedures. This is an unpublished release candidate; the version is
@@ -18,7 +21,8 @@ python examples/teaching_walkthrough.py
 Use `python -m pip install -e '.[test]'` for development, or install a supplied wheel with
 `python -m pip install /path/to/unitroot_tools-0.1.0rc1-py3-none-any.whl`. See the [user guide](docs/User_Guide.md) for complete
 examples, candidate diagnostics and Google Colab adaptation, and the
-[candidate review](docs/Stage4B_Release_Candidate.md) for tested compatibility.
+[candidate review](docs/archive/Stage4B_Release_Candidate.md) for its historical compatibility matrix; consult the documentation index for
+the current numerical checkpoint.
 
 ## Tests and interpretation
 
@@ -88,12 +92,13 @@ Singular/deterministic regressions and unsuitable numerical scales fail with
 `EstimationError`. Unexpected programming errors are not silently swallowed.
 
 Run tests with `python -m pytest --cov=unitroot_tools --cov-branch`.
-Python 3.11+ is the declared range; see the [Stage 4 matrix](docs/Stage4_Release_Review.md)
-for environments actually tested. Compatibility is not inferred from metadata.
+Python 3.11+ is the declared range; see the [Stage 4 matrix](docs/archive/Stage4_Release_Review.md)
+for its historical tested environments and the documentation index for the current
+checkpoint. Compatibility of changed code is not inferred from old matrices or metadata.
 
 The selector remains independent NumPy/SciPy code. Adapters use public ARCH
 and Statsmodels calibration APIs, check the active version, and need no R or development snapshot.
-See the [governing specification](docs/Implementation_Specification.md).
+See the [historical implementation specification](docs/archive/Implementation_Specification.md).
 
 PP supports `trend="n"`, `"c"`, `"ct"` and `test_type="tau"` (default) or
 `"rho"`. KPSS supports `"c"` (default) and `"ct"`. Both accept `bandwidth=0`

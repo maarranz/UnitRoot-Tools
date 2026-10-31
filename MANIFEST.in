@@ -6,3 +6,13 @@ recursive-include validation *.py *.R *.csv *.json *.xml *.ipynb
 prune validation/stage4
 include .github/workflows/platform-validation.yml
 prune validation/stage4b
+
+# Preserve relocated scientific evidence and reproducible research sources.
+recursive-include validation/experiment_a/pilot-summary *.json *.gz
+recursive-include validation/evidence *.zip
+recursive-include research *.py *.md
+prune build
+prune dist
+global-exclude *.py[cod] .DS_Store
+include validation/evidence/README.md
+include validation/experiment_a/pilot-summary/README.md

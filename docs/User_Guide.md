@@ -11,8 +11,9 @@ not decide automatically whether economic differencing is appropriate.
 
 ## Installation and first run
 
-Python 3.11 or later is required. Consult `Stage4B_Release_Candidate.md` for the
-versions actually tested; a declared dependency range is not a tested matrix.
+Python 3.11 or later is required. Consult the [documentation index](README.md) for the current Mac qualification
+and the archived candidate reports for historical matrices; a declared dependency
+range is not a tested matrix.
 From a local checkout:
 
 ```sh

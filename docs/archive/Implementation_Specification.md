@@ -8,7 +8,7 @@ Stage 2C audit with Stage 3A/3B/3C instructor-approved amendments, 27 October 20
 
 Read and inspected: `ARCH_Audit.md`, `MIC_Methodology.md`, `Numerical_Validation.md`, both `validation/cross_validate` scripts, and every file in `validation/results/` (six CSVs and five JSON files). The pre-existing `validation/results.zip` was also checked for CRC integrity and byte-for-byte agreement with its eleven result files; it was left unchanged.
 
-The independent audit is reproducible with [audit_saved_results.py](../validation/audit_saved_results.py), and its output is [stage2c_audit.json](../validation/stage2c_audit.json). It does **not** import the Stage 2B harness or its MIC/PP reference functions. It reads the saved evidence, uses fresh QR-based least-squares calculations with explicit observation indices, and additionally tests public fixed-lag calls in released ARCH 8.0.0. Run with NumPy, SciPy and released ARCH installed:
+The independent audit is reproducible with [audit_saved_results.py](../../validation/audit_saved_results.py), and its output is [stage2c_audit.json](../../validation/stage2c_audit.json). It does **not** import the Stage 2B harness or its MIC/PP reference functions. It reads the saved evidence, uses fresh QR-based least-squares calculations with explicit observation indices, and additionally tests public fixed-lag calls in released ARCH 8.0.0. Run with NumPy, SciPy and released ARCH installed:
 
 ```sh
 python validation/audit_saved_results.py --report /tmp/unitroot-stage2c-audit.json
@@ -284,8 +284,8 @@ Proceed only after this specification is reviewed; this task stops at the follow
 
 The audit uses the local CSV/JSON files identified above, the two reviewed scripts, and sources already preserved during Stages 1–2. No upstream source was changed or new upstream release assumed.
 
-- [ARCH audit](ARCH_Audit.md), [MIC methodology](MIC_Methodology.md), [numerical study](Numerical_Validation.md).
-- [Original Stage 2 manifest](../validation/results/manifest.json), [comparison rows](../validation/results/comparisons.csv), [candidate equations/data](../validation/results/mic_candidates.csv), [independent audit report](../validation/stage2c_audit.json).
+- [ARCH audit](../ARCH_Audit.md), [MIC methodology](../MIC_Methodology.md), [numerical study](../Numerical_Validation.md).
+- [Original Stage 2 manifest](../../validation/results/manifest.json), [comparison rows](../../validation/results/comparisons.csv), [candidate equations/data](../../validation/results/mic_candidates.csv), [independent audit report](../../validation/stage2c_audit.json).
 - Released ARCH 8.0.0 installed `METADATA`, public test signatures/source and `unitroot.py` digest `c9ada36525f293df31297085b4afbafdd6a75935af05ad098d4076cc568bb1e3`; [tagged source](https://github.com/bashtage/arch/blob/v8.0.0/arch/unitroot/unitroot.py).
 - Saved bootUR 1.0.5 source `adf_selectlags_cpp`, `maic_cpp`, `mbic_cpp`, `adf_onestep_tests_parest_all_units_cpp`; archive digest and primary paper references are in the methodology document.
 - Installed package metadata for the tested NumPy/SciPy/Pandas/Statsmodels versions supports the dependency discussion; it does not substitute for a minimum-version test run.

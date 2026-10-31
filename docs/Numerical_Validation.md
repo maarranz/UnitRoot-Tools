@@ -217,7 +217,7 @@ The original Stage 1 audit was left unchanged. This stage adds only the two Mark
 
 ## Stage 2C audit clarification — 27 October 2026
 
-An independent read-only audit of all eleven saved result files confirms 1,188 comparison rows and 840 passing expected-equality checks. Fresh QR-based calculations reproduce all 1,620 candidate rows, and 120 additional public fixed-lag composition checks pass using **released ARCH 8.0.0**. The 840 are scalar checks on shared fixtures, not independent simulation replications. See [Implementation_Specification.md](Implementation_Specification.md), [audit script](../validation/audit_saved_results.py), and [audit report](../validation/stage2c_audit.json).
+An independent read-only audit of all eleven saved result files confirms 1,188 comparison rows and 840 passing expected-equality checks. Fresh QR-based calculations reproduce all 1,620 candidate rows, and 120 additional public fixed-lag composition checks pass using **released ARCH 8.0.0**. The 840 are scalar checks on shared fixtures, not independent simulation replications. See [Implementation_Specification.md](archive/Implementation_Specification.md), [audit script](../validation/audit_saved_results.py), and [audit report](../validation/stage2c_audit.json).
 
 Two preservation/interpretation points apply to this historical run:
 
