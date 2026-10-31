@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 import numpy as np
 from scipy.stats import beta,norm
-from .runner import load_rows
+from .runner import iter_chunks
 from .engine import METHODS,ALPHAS,SPECS
 
 
@@ -35,14 +35,19 @@ def csv_write(path,rows):
 
 def summarize(source,destination):
     destination=Path(destination);destination.mkdir(parents=True,exist_ok=True)
-    manifest,rows=load_rows(source)
-    if not manifest['complete']:raise ValueError('Final pilot summaries require a complete run')
-    groups={c['id']:[] for c in manifest['catalogue']}
-    for row in rows:groups[row['cell_id']].append(row)
+    manifest=json.loads((Path(source)/'manifest.json').read_text())
+    if not manifest['complete']:raise ValueError('Final summaries require a complete run')
+    chunks=iter(iter_chunks(source,manifest))
+    total_rows=equivalence_checks=0
     rates=[];selection=[];branches=[];paths=[];pairs=[];margins=[];failures=[];warnings=[]
     primary={('enders_original','enders_conservative'),('det_aic','det_bic'),('enders_original','adf_ct'),('enders_conservative','adf_ct'),('det_aic','adf_ct'),('det_bic','adf_ct')}
     for cell in manifest['catalogue']:
-        sample=groups[cell['id']]
+        sample=[]
+        for task in manifest['tasks']:
+            if task['cell_id']==cell['id']:
+                sample.extend(next(chunks))
+        total_rows+=len(sample)
+        equivalence_checks+=sum(r['equivalence_checks'] for r in sample)
         assert [r['replicate'] for r in sample]==list(range(manifest['reps']))
         n=len(sample)
         D=np.array([r['decisions'] for r in sample]);S=np.array([r['selected'] for r in sample])
@@ -109,10 +114,10 @@ def summarize(source,destination):
         chunks=[d for d in done if d['cell_id']==c['id']]
         timing.append(dict(cell_id=c['id'],T=c['law']['T'],compute_seconds=sum(d['compute_seconds'] for d in chunks),elapsed_task_seconds=sum(d['elapsed_seconds'] for d in chunks)))
     csv_write(destination/'cell_timings.csv.gz',timing)
-    report=dict(complete=True,identity_hash=manifest['identity_hash'],cells=len(groups),null_cells=sum(c['is_null'] for c in manifest['catalogue']),replications_per_cell=manifest['reps'],cell_replications=len(rows),method_alpha_decisions=int(np.prod(D.shape[1:])*len(rows)),
-                failure_records=len(failures),warning_records=len(warnings),equivalence_checks=sum(r['equivalence_checks'] for r in rows),
+    report=dict(complete=True,identity_hash=manifest['identity_hash'],phase=manifest['phase'],cells=len(manifest['catalogue']),null_cells=sum(c['is_null'] for c in manifest['catalogue']),replications_per_cell=manifest['reps'],cell_replications=total_rows,method_alpha_decisions=int(np.prod(D.shape[1:])*total_rows),
+                failure_records=len(failures),warning_records=len(warnings),equivalence_checks=equivalence_checks,
                 nesting_violations=0,source=str(Path(source).resolve()),table_rows={name:len(table) for name,table in tables.items()},
-                caution='Exploratory pilot; per-cell Monte Carlo intervals are pointwise. No overall nominal-size claim, no main experiment, no size-adjusted calibration.')
+                caution='Per-cell Monte Carlo intervals are pointwise. No overall nominal-size claim or size-adjusted calibration; interpret according to the recorded phase.')
     (destination/'summary.json').write_text(json.dumps(report,indent=2)+'\n')
     return report
 

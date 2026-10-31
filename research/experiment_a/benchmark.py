@@ -38,6 +38,9 @@ def main():
                          for row in rows for alpha,variants in row['enders'].items() for variant,value in variants.items())
         records.append(dict(workers=workers,rows=len(rows),wall_seconds=total,rows_per_second=len(rows)/total,
                             coordinator_peak_rss_bytes=parent_peak,worker_peak_rss_bytes=worker_peaks,
+                            summed_task_wall_seconds=sum(d['elapsed_seconds'] for d in done),
+                            summed_compute_wall_seconds=sum(d['compute_seconds'] for d in done),
+                            summed_worker_cpu_seconds=sum(d['cpu_seconds'] for d in done),
                             sum_process_peaks_upper_estimate_bytes=aggregate,
                             output_bytes=sum(f.stat().st_size for f in output.rglob('*') if f.is_file()),
                             branch_counts=[dict(alpha=k[0],variant=k[1],history_length=k[2],specification=k[3],terminal=k[4],count=v) for k,v in sorted(branches.items())]))

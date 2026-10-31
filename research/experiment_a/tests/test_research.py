@@ -45,7 +45,8 @@ def test_stream_addressability():
     assert not np.array_equal(z,innovations(a,8,'validation'))
     assert not np.array_equal(z,innovations(a,7,'benchmark'))
     assert not np.array_equal(z,innovations(b,7,'validation'))
-    with pytest.raises(ValueError):innovations(a,7,'main')
+    assert not np.array_equal(z,innovations(a,7,'main'))
+    assert not np.array_equal(innovations(a,7,'pilot'),innovations(a,7,'main'))
 
 
 @pytest.mark.parametrize('phase,reps',[('main',2000),('pilot',2000),('pilot',20),('validation',201)])

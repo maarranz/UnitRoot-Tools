@@ -9,7 +9,7 @@ import numpy as np
 
 MASTER_SEED = 0x20261028B6A84FE0E1A0000000000001
 RNG_VERSION = 'experiment-a-rng-v1'
-PHASES = ('validation', 'benchmark', 'pilot')  # Main is deliberately unsupported.
+PHASES = ('validation', 'benchmark', 'pilot', 'main')
 
 
 def canonical(value):
@@ -67,7 +67,7 @@ def catalogue():
 
 def innovations(cell, replicate, phase='pilot', master=MASTER_SEED):
     if phase not in PHASES or not isinstance(replicate, int) or isinstance(replicate, bool) or replicate < 0:
-        raise ValueError('Only nonnegative replicate IDs in validation/benchmark/pilot are supported')
+        raise ValueError('Only nonnegative replicate IDs in validation/benchmark/pilot/main are supported')
     if not 0 <= master < 2**128:
         raise ValueError('master seed must be an unsigned 128-bit integer')
     key = [RNG_VERSION, cell['id'], phase, replicate, 'innovations']
